@@ -1,0 +1,1 @@
+I wrote all of these libraries except for DirectXTex.

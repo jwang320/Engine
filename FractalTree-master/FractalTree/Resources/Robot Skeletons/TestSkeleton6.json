@@ -1,0 +1,283 @@
+{
+  "segments": [
+    {
+      "name": "leftFoot",
+      "isRoot": true,
+      "directions": [
+        {
+          "target": "rightFoot",
+          "action": "up",
+          "xAvailable": false
+        },
+        {
+          "target": "leftFoot",
+          "action": "stay",
+          "xOffset": -30,
+          "xAvailable": false
+        }
+      ],
+      "segments": [
+        {
+          "length": 15,
+          "directions": [
+            {
+              "target": "leftFoot",
+              "action": "down",
+              "zAvailable": false
+            },
+            {
+              "target": "rightFoot",
+              "action": "up",
+              "xAvailable": false
+            }
+          ],
+          "segments": [
+            {
+              "length": 15,
+              "directions": [
+                {
+                  "target": "leftFoot",
+                  "action": "down",
+                  "zAvailable": false
+                },
+                {
+                  "target": "rightFoot",
+                  "action": "up",
+                  "xAvailable": false
+                }
+              ],
+              "segments": [
+                {
+                  "length": 15,
+                  "directions": [
+                    {
+                      "target": "leftFoot",
+                      "action": "down",
+                      "zAvailable": false
+                    },
+                    {
+                      "target": "rightFoot",
+                      "action": "up",
+                      "xAvailable": false
+                    }
+                  ],
+                  "segments": [
+                    {
+                      "length": 15,
+                      "name": "leftHip",
+                      "directions": [
+                        {
+                          "target": "leftFoot",
+                          "action": "down",
+                          "zAvailable": false
+                        },
+                        {
+                          "target": "rightFoot",
+                          "action": "up",
+                          "xOffset": -30,
+                          "yOffset": 45,
+                          "xRot": 3.1415
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rightFoot",
+      "isRoot": true,
+      "directions": [
+        {
+          "target": "leftFoot",
+          "action": "up"
+        },
+        {
+          "target": "rightFoot",
+          "action": "stay",
+          "xAvailable": false,
+          "xOffset": 30
+        }
+      ],
+      "segments": [
+        {
+          "length": 15,
+          "directions": [
+            {
+              "target": "leftFoot",
+              "action": "up",
+              "xAvailable": false
+            },
+            {
+              "target": "rightFoot",
+              "action": "down",
+              "zAvailable": false
+            }
+          ],
+          "segments": [
+            {
+              "length": 15,
+              "directions": [
+                {
+                  "target": "leftFoot",
+                  "action": "up",
+                  "xAvailable": false
+                },
+                {
+                  "target": "rightFoot",
+                  "action": "down",
+                  "zAvailable": false
+                }
+              ],
+              "segments": [
+                {
+                  "length": 15,
+                  "directions": [
+                    {
+                      "target": "leftFoot",
+                      "action": "up",
+                      "xAvailable": false
+                    },
+                    {
+                      "target": "rightFoot",
+                      "action": "down",
+                      "zAvailable": false
+                    }
+                  ],
+                  "segments": [
+                    {
+                      "length": 15,
+                      "name": "rightHip",
+                      "directions": [
+                        {
+                          "target": "leftFoot",
+                          "action": "up",
+                          "xOffset": 30,
+                          "yOffset": 45,
+                          "xRot": 3.1415
+                        },
+                        {
+                          "target": "rightFoot",
+                          "action": "down",
+                          "zAvailable": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "torso",
+      "length": 45,
+      "isGoal": false,
+      "segments": [
+        {
+          "length": 15,
+          "directions": [
+            {
+              "target": "leftFoot",
+              "action": "down",
+              "yAvailable": true
+            },
+            {
+              "target": "rightFoot",
+              "action": "down",
+              "yAvailable": true
+            }
+          ],
+          "segments": [
+            {
+              "segments": [
+                {
+                  "length": 25,
+                  "repeat": 5,
+                  "directions": [
+                    {
+                      "target": "leftFoot",
+                      "action": "down",
+                      "zAvailable": true,
+                      "xAvailable": true
+                    },
+                    {
+                      "target": "rightFoot",
+                      "action": "down",
+                      "zAvailable": true,
+                      "xAvailable": true
+                    }
+                  ],
+                  "segments": [
+                    {
+                      "length": 15,
+                      "isGoal": true,
+                      "directions": [
+                        {
+                          "target": "leftFoot",
+                          "action": "down",
+                          "zAvailable": true
+                        },
+                        {
+                          "target": "rightFoot",
+                          "action": "down",
+                          "zAvailable": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "length": 15,
+              "directions": [
+                {
+                  "target": "leftFoot",
+                  "action": "down",
+                  "xAvailable": true
+                },
+                {
+                  "target": "rightFoot",
+                  "action": "down",
+                  "xAvailable": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "directions": [
+        {
+          "target": "leftFoot",
+          "action": "down",
+          "index": 0,
+          "xOffset": 30,
+          "xAvailable": false
+        },
+        {
+          "target": "rightFoot",
+          "action": "down",
+          "index": 1,
+          "xOffset": -30
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "segment1": "torso",
+      "segment2": "leftHip",
+      "root": "leftFoot"
+    },
+    {
+      "segment1": "torso",
+      "segment2": "rightHip",
+      "root": "rightFoot"
+    }
+  ]
+}

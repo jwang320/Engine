@@ -1,0 +1,104 @@
+{
+  "segments": [
+    {
+      "xOffset": 0,
+      "isRoot": true,
+      "name": "foot",
+      "length": 0,
+      "segments": [
+        {
+          "zAvailable": true,
+          "repeat": 3,
+          "minZ": -0.5,
+          "maxZ": 0.5,
+          "length": 20,
+          "zRotAlla": 0.314,
+          "name": "leftLeg",
+          "endName": "leftLegEnd"
+        }
+      ]
+    },
+    {
+      "name": "rightLeg",
+      "endName": "rightLegEnd",
+      "parent": "waistEnd",
+      "zAvailable": true,
+      "repeat": 3,
+      "minZ": 0,
+      "maxZ": 0.5,
+      "length": 20,
+      "zRotAll": 0.314,
+      "isFootGoal": true,
+      "xFootGoal": -70
+    },
+    {
+      "name": "torso",
+      "parent": "thing2",
+      "repeat": 4,
+      "xAvailable": true,
+      "yAvailable": false,
+      "zAvailable": false,
+      "isGoal": false,
+      "minX": -0.55,
+      "maxX": 0,
+      "length": 20
+    },
+    {
+      "name": "armA",
+      "parent": "torso2",
+      "isGoal": true,
+      "xAvailable": false,
+      "yAvailable": true,
+      "zAvailable": true,
+      "zRot": 1.57,
+      "minY": -0.31,
+      "maxY": 0.31,
+      "minZ": 0,
+      "maxZ": 0.57,
+      "repeat": 7,
+      "length": 20
+    },
+    {
+      "name": "armB",
+      "parent": "torso2",
+      "isGoal": true,
+      "xAvailable": false,
+      "yAvailable": true,
+      "zAvailable": true,
+      "zRot": -1.57,
+      "minY": -0.31,
+      "maxY": 0.31,
+      "minZ": -0.57,
+      "maxZ": 0,
+      "repeat": 7,
+      "length": 20
+    },
+    {
+      "name": "thing",
+      "parent": "waist1",
+      "length": 0,
+      "zRot": -1.256
+    },
+    {
+      "name": "thing2",
+      "parent": "thing",
+      "length": 0,
+      "yAvailable": true,
+      "minY": -1,
+      "maxY": 1
+    },
+    {
+      "name": "waist",
+      "endName": "waistEnd",
+      "parent": "leftLegEnd",
+      "yAvailable": false,
+      "zAvailable": true,
+      "isGoal": false,
+      "repeat": 4,
+      "zRotAll": 0.628,
+      "length": 20,
+      "minZ": -0.1,
+      "maxZ": 0.1
+    }
+  ]
+}

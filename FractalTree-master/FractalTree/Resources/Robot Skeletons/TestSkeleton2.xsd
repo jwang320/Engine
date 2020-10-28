@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TestSkeleton2"
+    targetNamespace="http://tempuri.org/TestSkeleton2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/TestSkeleton2.xsd"
+    xmlns:mstns="http://tempuri.org/TestSkeleton2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+</xs:schema>

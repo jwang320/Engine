@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{8320ead5-faac-45b2-89ba-0040ecc68db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Core">
+      <UniqueIdentifier>{2e8ddd3e-3f8f-46b9-9e35-b860945544c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write">
+      <UniqueIdentifier>{9661ddbe-7eb0-427a-9380-13145556f335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex">
+      <UniqueIdentifier>{36a933bb-8429-4676-bd5e-7fdb8002da1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex\DDSTextureLoader">
+      <UniqueIdentifier>{70a67307-b1e0-470d-8fac-4e7d9e59256f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex\DDSTextureLoader\Headers">
+      <UniqueIdentifier>{6597fa86-c24f-4efd-9465-ca55afab2c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex\DDSTextureLoader\Source">
+      <UniqueIdentifier>{6f0e8638-db80-444f-8f2a-b3a9104bf697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote">
+      <UniqueIdentifier>{9599346a-018f-41ec-a798-6e236ca1e9af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\File Parser">
+      <UniqueIdentifier>{afc1507f-90ef-4195-84a9-7e3e5d2f46a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\Model Parser">
+      <UniqueIdentifier>{36dfc972-5a98-4cca-8058-7f59f5d6159a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\Model Parser\3DS Max">
+      <UniqueIdentifier>{a4dd31f0-e864-4261-b522-55d8a38857af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\Resource Loader">
+      <UniqueIdentifier>{c420ec91-e63a-4200-9d57-bfd9512cb8a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\UI Renderer">
+      <UniqueIdentifier>{7d69ea1c-26e9-4638-b713-f5290b833eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f373f979-ba0d-4823-9998-404e3313b178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{5ad5537e-f338-4f62-957d-ccb366400c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources">
+      <UniqueIdentifier>{c4e54c78-f6ae-4b37-92a6-211a4df1c8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Models">
+      <UniqueIdentifier>{c56d79e8-8e75-4036-888c-086de4f99212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Textures">
+      <UniqueIdentifier>{6036a521-41ca-456b-a276-8ecc084619c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Textures\Fonts">
+      <UniqueIdentifier>{37d5f937-e1ec-47d8-bb0e-1f69b6293a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\BlockDefinitions">
+      <UniqueIdentifier>{f9e394c8-70ad-4948-ac3d-c516895f97c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Game Objects">
+      <UniqueIdentifier>{c1fd2161-3ce2-44c4-9f92-e4a277463b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\UI">
+      <UniqueIdentifier>{0b49295b-40a1-4a41-ae24-c2c1e30245a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Room Definitions">
+      <UniqueIdentifier>{a1a6e180-b6a9-4c01-80fa-256929baf482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\AI Profiles">
+      <UniqueIdentifier>{e7f87d8e-4711-4446-8642-697315af5462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Game Definitions">
+      <UniqueIdentifier>{b1d7a834-b536-4e06-b245-f466e4d1b172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Game Definitions\TestWorld">
+      <UniqueIdentifier>{2c7740a6-4e9e-461a-ab66-77ba40534c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Game Definitions\Level0">
+      <UniqueIdentifier>{e4dc2ad3-289f-4716-8156-b4e21cad850c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source">
+      <UniqueIdentifier>{8a942ebe-c20a-40eb-8c38-ed36c525a1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Mesh">
+      <UniqueIdentifier>{2b58b941-0f88-4f67-8692-6cbd6cad0441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util">
+      <UniqueIdentifier>{a883ac01-e471-4515-94c4-6cbc661d7447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\File Parser">
+      <UniqueIdentifier>{0d508e7d-e41a-4f0d-8599-450a4a3e865b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\File Parser\BMP">
+      <UniqueIdentifier>{831831f9-3962-433e-9c33-96bd92447bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\Model Parser">
+      <UniqueIdentifier>{22428ab8-201f-4bc6-b4ed-95309dc7d3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\Model Parser\3DS Max">
+      <UniqueIdentifier>{7fa4174a-9362-49c8-a7b7-1d60eadc5e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\Texture Loader">
+      <UniqueIdentifier>{7049af5c-2265-4cb7-8008-fad485670d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\File Parser\ASCII">
+      <UniqueIdentifier>{d51b6e70-61b5-4f6a-990e-b3ada4b7d0fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\ObjectRendererBinding.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\GameBindingGraph.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\GameRenderer.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\GameResources.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\GameApplication.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\GameMenuWindow.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\GameSimulation.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\App32.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BoundingBox.cpp">
+      <Filter>Libraries I wrote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceManager.cpp">
+      <Filter>Libraries I wrote\Resource Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\UIRenderer.cpp">
+      <Filter>Libraries I wrote\UI Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerCharacter.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerEnemy.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerFodder.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerMesquito.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerMissile.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerPersonCharacter.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerWorld.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\BlockUniverse.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\ShaderInitialization.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\pch.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerBlock.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\UIImage.cpp">
+      <Filter>Source Code\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\MildlyDifficultOpponent.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerBrain.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\LevelGenerator.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\App1\PlatformerRoom.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Mesh\Mesh.cpp">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\File Parser\BMP\FileLoader.cpp">
+      <Filter>Source Code\Common Source\Util\File Parser\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.cpp">
+      <Filter>Source Code\Common Source\Util\Model Parser\3DS Max</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.cpp">
+      <Filter>Source Code\Common Source\Util\Texture Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\File Parser\ASCII\ParserHelper.cpp">
+      <Filter>Source Code\Common Source\Util\File Parser\ASCII</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\ObjectRendererBinding.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\GameBindingGraph.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\GameRenderer.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\GameResources.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\GameApplication.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\GameMenuWindow.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\GameSimulation.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\App32.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BoundingBox.h">
+      <Filter>Libraries I wrote</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResourceManager.h">
+      <Filter>Libraries I wrote\Resource Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UIRenderer.h">
+      <Filter>Libraries I wrote\UI Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerCharacter.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerEnemy.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerFodder.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerMesquito.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerMissile.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerPersonCharacter.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerWorld.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\BlockUniverse.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\pch.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerBlock.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\UIImage.h">
+      <Filter>Source Code\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\MildlyDifficultOpponent.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerBrain.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\GameDefinition.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\LevelGenerator.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\App1\PlatformerRoom.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\StandardRendererResources.h" />
+    <ClInclude Include="..\Common Source\Mesh\Mesh.h">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\File Parser\BMP\FileLoader.h">
+      <Filter>Source Code\Common Source\Util\File Parser\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.h">
+      <Filter>Source Code\Common Source\Util\Model Parser\3DS Max</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.h">
+      <Filter>Source Code\Common Source\Util\Texture Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\File Parser\ASCII\ParseHelper.h">
+      <Filter>Source Code\Common Source\Util\File Parser\ASCII</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Src\FoliagePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\FontPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SimplePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SimpleVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\InstancedSimpleVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\App1\DefaultVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\DefaultPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\App1\Assets\Resources\ProgramVariables.txt">
+      <Filter>Assets\Resources</Filter>
+    </Text>
+    <Text Include="..\App1\Assets\Resources\Textures\Fonts\fontdata.txt">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\App1\Assets\Resources\ResourceList.rl">
+      <Filter>Assets\Resources</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Models\cube2.ASE">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Models\cube2.m">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Models\Sphere.ASE">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Models\sphere.m">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Models\testship4.ase">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Models\testship4.m">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Textures\Fonts\fonttnr.fnt">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\BlockDefinitions\pixelrobot.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\PixelBlockResources.rl">
+      <Filter>Assets\Resources</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\BlockDefinitions\EvilMesquito.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\BlockDefinitions\EvilPixelRobot.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\BlockDefinitions\PixelFodder.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Room Definitions\TestRoom.m">
+      <Filter>Assets\Resources\Room Definitions</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\BlockDefinitions\MildlyDifficultOpponent.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\AI Profiles\DefaultAIProfile.AI">
+      <Filter>Assets\Resources\AI Profiles</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\BlockDefinitions\SmallCharacter.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Game Definitions\TestWorld.gd">
+      <Filter>Assets\Resources\Game Definitions\TestWorld</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Game Definitions\Level0.gd">
+      <Filter>Assets\Resources\Game Definitions\Level0</Filter>
+    </None>
+    <None Include="..\App1\Assets\Resources\Room Definitions\SmallRoom.m">
+      <Filter>Assets\Resources\Room Definitions</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\App1\Assets\Resources\Textures\Fonts\font.dds">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\Textures\Fonts\fonttnr_0.dds">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\BlockDefinitions\pixelrobot.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\BlockDefinitions\EvilMesquito.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\BlockDefinitions\EvilPixelRobot.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\BlockDefinitions\PixelFodder.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\Room Definitions\TestRoom.bmp">
+      <Filter>Assets\Resources\Room Definitions</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\BlockDefinitions\MildlyDifficultOpponent.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\BlockDefinitions\SmallCharacter.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="..\App1\Assets\Resources\Room Definitions\SmallRoom.bmp">
+      <Filter>Assets\Resources\Room Definitions</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

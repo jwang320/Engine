@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FractalTreeServer">
+      <UniqueIdentifier>{f40a5cce-0d88-4bd9-9e28-80a12d869de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FractalTreeServer\Server">
+      <UniqueIdentifier>{c4f5d2f4-9451-4550-93db-ca04f9360252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{2b49a386-9351-4246-a711-8a3169b908bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries">
+      <UniqueIdentifier>{61fc4abc-7f95-41c6-ab09-1d27ae4fd664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries\LSystem">
+      <UniqueIdentifier>{bceeb309-b52f-4a4c-b909-2704e612071c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries\LSystem\Abstract Types">
+      <UniqueIdentifier>{96ad2175-5a9b-4868-864f-8b6af6678a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries\LSystem\Concrete Types">
+      <UniqueIdentifier>{e3d88f12-946d-4806-bdbb-84f18562c320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries\LSystem\System Types">
+      <UniqueIdentifier>{85145fa5-24ed-4419-9116-bb0e4281c548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries\Mesh">
+      <UniqueIdentifier>{c9f417ab-8e1f-48d1-902e-72169573f909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries\File Parser">
+      <UniqueIdentifier>{f678b3b8-b44d-4b41-a953-9c984ea262c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Libraries\Procedural Generation">
+      <UniqueIdentifier>{de63b76b-5dd2-43f3-a8df-45fb56d20330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Simulation">
+      <UniqueIdentifier>{b5448640-3be4-477f-84f4-71c4fd0fb31b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Simulation\World">
+      <UniqueIdentifier>{8e3bdac4-27d8-4aa7-825f-623ad768653f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Simulation\World\Objects">
+      <UniqueIdentifier>{4e199b8e-d0a1-465e-b35d-75dfbb5895e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Simulation\World\Items">
+      <UniqueIdentifier>{b098eb8e-a7c0-4a91-ae0d-e47090ae80b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Simulation\Terrain">
+      <UniqueIdentifier>{718cf087-2842-4b52-9a4f-9aa4d072b924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Other\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Other\FractalTree">
+      <UniqueIdentifier>{11db5ada-a520-46f6-8c3d-f24c2de2c315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{b109f42e-df95-4565-a4c0-a09c0bcdc180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Server\GameServer.h">
+      <Filter>FractalTreeServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Humanoid.h">
+      <Filter>Other\Simulation\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Projectile.h">
+      <Filter>Other\Simulation\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Ship.h">
+      <Filter>Other\Simulation\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Item.h">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\ItemSlot.h">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\TestMissileLauncher.h">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Weapon.h">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\FractalTreeResources.h">
+      <Filter>Other\FractalTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FractalTreeSimulation.h">
+      <Filter>Other\FractalTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TestFloor.h">
+      <Filter>Other\FractalTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\TestShip.h">
+      <Filter>Other\FractalTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TreeActor.h">
+      <Filter>Other\FractalTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\LSystem.h">
+      <Filter>Other\Libraries\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SystemParameters.h">
+      <Filter>Other\Libraries\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConnectorSegment.h">
+      <Filter>Other\Libraries\LSystem\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\SpatialLSystemSegment.h">
+      <Filter>Other\Libraries\LSystem\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TreeTrunkSegment.h">
+      <Filter>Other\Libraries\LSystem\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BoundingBox.h">
+      <Filter>Other\Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Geometry.h">
+      <Filter>Other\Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HeightMapMesh.h">
+      <Filter>Other\Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PerlinNoise.h">
+      <Filter>Other\Libraries\Procedural Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Server\Client.h">
+      <Filter>FractalTreeServer\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Server\UDPServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FoliageActor.h">
+      <Filter>Other\FractalTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainGrowthElement.h">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainGrowthSimulator.h">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainGrowthSimulatorNode.h">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalTreeServer.h">
+      <Filter>FractalTreeServer</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree32\FractalTreeWorld.h">
+      <Filter>Other\FractalTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\StandardRendererResources.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree32\TerrainCell.h">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree32\Terrain.h">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Server\GameServer.cpp">
+      <Filter>FractalTreeServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeServer.cpp">
+      <Filter>FractalTreeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Humanoid.cpp">
+      <Filter>Other\Simulation\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Projectile.cpp">
+      <Filter>Other\Simulation\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Ship.cpp">
+      <Filter>Other\Simulation\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Item.cpp">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\ItemSlot.cpp">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\TestMissileLauncher.cpp">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Weapon.cpp">
+      <Filter>Other\Simulation\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\FractalTreeResources.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FractalTreeSimulation.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TestFloor.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\TestShip.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TreeActor.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\LSystem.cpp">
+      <Filter>Other\Libraries\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SystemParameters.cpp">
+      <Filter>Other\Libraries\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConnectorSegment.cpp">
+      <Filter>Other\Libraries\LSystem\Abstract Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SpatialLSystemSegment.cpp">
+      <Filter>Other\Libraries\LSystem\Abstract Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TreeTrunkSegment.cpp">
+      <Filter>Other\Libraries\LSystem\Concrete Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BoundingBox.cpp">
+      <Filter>Other\Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Geometry.cpp">
+      <Filter>Other\Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeightMapMesh.cpp">
+      <Filter>Other\Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PerlinNoise.cpp">
+      <Filter>Other\Libraries\Procedural Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Server\Client.cpp">
+      <Filter>FractalTreeServer\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Server\UDPServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FoliageActor.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainGrowthElement.cpp">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainGrowthSimulator.cpp">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainGrowthSimulatorNode.cpp">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TheSun.cpp">
+      <Filter>Other\Simulation\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DecentMissileLauncher.cpp">
+      <Filter>Other\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DecentMissile.cpp">
+      <Filter>Other\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IneffectiveMissileLauncher.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IneffectiveMissile.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\BadGuy.cpp">
+      <Filter>FractalTreeServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Generator.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\GoodGuy.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StandardRendererResources.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Teapot.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree32\FractalTreeWorld.cpp">
+      <Filter>Other\FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree32\TerrainCell.cpp">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree32\Terrain.cpp">
+      <Filter>Other\Simulation\Terrain</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

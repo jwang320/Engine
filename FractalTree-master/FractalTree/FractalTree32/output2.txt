@@ -1,0 +1,195 @@
+Y Rotation: 360
+crossP: {0, 0, -1}
+bisector: {0.999048, -0.0436196, 0}
+planeNormal: {1, 0, 1.19209e-007}
+newAxis2: {0, 0, -1}
+crossNewP: {0, 1.19209e-007, 0}
+baseAng: 180
+angB (final): -2.50014
+angle: 180
+lenVal: 0.283542
+--
+
+
+Y Rotation: 25
+crossP: {-0.422618, 0, -0.906308}
+bisector: {0.905445, -0.0436196, -0.422216}
+planeNormal: {0.906308, 0, -0.422618}
+newAxis2: {-0.766044, 0, -0.642788}
+crossNewP: {0, -0.422618, 0}
+baseAng: 205
+angB (final): -2.49998
+angle: 205
+lenVal: 0.25696
+--
+
+
+Y Rotation: 50
+crossP: {-0.766044, 0, -0.642788}
+bisector: {0.642176, -0.0436196, -0.765315}
+planeNormal: {0.642788, 0, -0.766044}
+newAxis2: {-0.984808, 0, 0.173648}
+crossNewP: {0, -0.766044, 0}
+baseAng: 230
+angB (final): -2.49998
+angle: 230
+lenVal: 0.182246
+--
+
+
+Y Rotation: 75
+crossP: {-0.965926, 0, -0.258819}
+bisector: {0.258573, -0.0436196, -0.965007}
+planeNormal: {0.258819, 0, -0.965926}
+newAxis2: {-0.5, 0, 0.866025}
+crossNewP: {0, -0.965926, 0}
+baseAng: 255
+angB (final): -2.50014
+angle: 255
+lenVal: 0.0733861
+--
+
+
+Y Rotation: 100
+crossP: {-0.984808, 0, 0.173648}
+bisector: {-0.173483, -0.0436196, -0.983871}
+planeNormal: {-0.173648, 0, -0.984808}
+newAxis2: {0.34202, 0, 0.939693}
+crossNewP: {0, -0.984808, -0}
+baseAng: 100
+angB (final): 2.50006
+angle: 100
+lenVal: -0.049235
+--
+
+
+Y Rotation: 125
+crossP: {-0.819152, 0, 0.573576}
+bisector: {-0.573031, -0.0436196, -0.818372}
+planeNormal: {-0.573576, 0, -0.819152}
+newAxis2: {0.939693, 0, 0.34202}
+crossNewP: {0, -0.819152, -0}
+baseAng: 125
+angB (final): 2.49998
+angle: 125
+lenVal: -0.162623
+--
+
+
+Y Rotation: 150
+crossP: {-0.5, 0, 0.866025}
+bisector: {-0.865201, -0.0436196, -0.499524}
+planeNormal: {-0.866025, 0, -0.5}
+newAxis2: {0.866025, 0, -0.5}
+crossNewP: {0, -0.5, -0}
+baseAng: 150
+angB (final): 2.50014
+angle: 150
+lenVal: -0.245555
+--
+
+
+Y Rotation: 175
+crossP: {-0.0871557, 0, 0.996195}
+bisector: {-0.995247, -0.0436196, -0.0870728}
+planeNormal: {-0.996195, 0, -0.0871558}
+newAxis2: {0.173647, 0, -0.984808}
+crossNewP: {0, -0.0871558, -0}
+baseAng: 175
+angB (final): 2.50014
+angle: 175
+lenVal: -0.282463
+--
+
+
+Y Rotation: 200
+crossP: {0.34202, -0, 0.939693}
+bisector: {-0.938798, -0.0436196, 0.341695}
+planeNormal: {-0.939693, 0, 0.34202}
+newAxis2: {-2.08616e-007, 0, -1}
+crossNewP: {0, 0.34202, -0}
+baseAng: 160
+angB (final): 2.50006
+angle: 160
+lenVal: -0.266434
+--
+
+
+Y Rotation: 225
+crossP: {0.707107, -0, 0.707107}
+bisector: {-0.706434, -0.0436196, 0.706434}
+planeNormal: {-0.707107, 0, 0.707107}
+newAxis2: {-2.68221e-007, 0, -1}
+crossNewP: {0, 0.707107, -0}
+baseAng: 135
+angB (final): 2.49998
+angle: 135
+lenVal: -0.200482
+--
+
+
+Y Rotation: 250
+crossP: {0.939693, -0, 0.34202}
+bisector: {-0.341695, -0.0436196, 0.938798}
+planeNormal: {-0.34202, 0, 0.939692}
+newAxis2: {-1.78814e-007, 0, -1}
+crossNewP: {0, 0.939692, -0}
+baseAng: 110
+angB (final): 2.50014
+angle: 110
+lenVal: -0.0969771
+--
+
+
+Y Rotation: 275
+crossP: {0.996195, 0, -0.0871555}
+bisector: {0.0870726, -0.0436196, 0.995247}
+planeNormal: {0.0871554, 0, 0.996195}
+newAxis2: {0, 0, -1}
+crossNewP: {0, 0.996195, 0}
+baseAng: 265
+angB (final): -2.50022
+angle: 265
+lenVal: 0.0247129
+--
+
+
+Y Rotation: 300
+crossP: {0.866025, 0, -0.5}
+bisector: {0.499524, -0.0436196, 0.865201}
+planeNormal: {0.5, 0, 0.866025}
+newAxis2: {0, 0, -1}
+crossNewP: {0, 0.866025, 0}
+baseAng: 240
+angB (final): -2.50014
+angle: 240
+lenVal: 0.141771
+--
+
+
+Y Rotation: 325
+crossP: {0.573576, 0, -0.819152}
+bisector: {0.818372, -0.0436196, 0.57303}
+planeNormal: {0.819152, 0, 0.573576}
+newAxis2: {-2.98023e-008, 0, -1}
+crossNewP: {0, 0.573576, 0}
+baseAng: 215
+angB (final): -2.50006
+angle: 215
+lenVal: 0.232257
+--
+
+
+Y Rotation: 350
+crossP: {0.173648, 0, -0.984808}
+bisector: {0.983871, -0.0436196, 0.173483}
+planeNormal: {0.984808, 0, 0.173648}
+newAxis2: {5.21541e-007, 0, -1}
+crossNewP: {0, 0.173648, 0}
+baseAng: 190
+angB (final): -2.50014
+angle: 190
+lenVal: 0.279234
+--
+
+

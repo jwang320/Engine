@@ -1,0 +1,20 @@
+{
+  "segments": [
+    {
+      "isGoal": false,
+      "yAvailable": true,
+      "xMove": true,
+      "isRoot": true,
+      "segments": [
+        {
+          "isGoal": true,
+          "xAvailable": true,
+          "yAvailable": false,
+          "repeat": 16,
+          "minX": 0.5,
+          "length": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "segments": [
+    {
+      "isGoal": false,
+      "yAvailable": true,
+      "xMove": true,
+      "isRoot": true,
+      "name": "foot",
+      "segments": [
+        {
+          "isGoal": false,
+          "xAvailable": true,
+          "yAvailable": false,
+          "repeat": 16,
+          "minX": 0.25,
+          "length": 15,
+          "zOffset": 0,
+          "xRot": 0.01,
+          "segments": [
+            {
+              "isGoal": false,
+              "length": 10,
+              "xOffset": 0,
+              "yAvailable": true,
+              "segments": [
+                {
+                  "isGoal": false,
+                  "length": 25,
+                  "xOffset": 20,
+                  "xAvailable": true,
+                  "minX": 1.25,
+                  "segments": [
+                    {
+                      "isGoal": false,
+                      "length": 5,
+                      "yAvailable": true,
+                      "segments": [
+                        {
+                          "isGoal": false,
+                          "length": 20,
+                          "zAvailable": true,
+                          "minZ": 1.25,
+                          "segments": [
+                            {
+                              "isGoal": false,
+                              "length": 10,
+                              "yAvailable": true,
+                              "segments": [
+                                {
+                                  "isGoal": true,
+                                  "length": 20,
+                                  "xAvailable": true,
+                                  "minX": 1.25
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "isGoal": false,
+                  "length": 25,
+                  "xOffset": -20,
+                  "xAvailable": true,
+                  "minX": 1.25,
+                  "segments": [
+                    {
+                      "isGoal": false,
+                      "length": 5,
+                      "xOffset": 0,
+                      "yAvailable": true,
+                      "segments": [
+                        {
+                          "isGoal": false,
+                          "length": 20,
+                          "zAvailable": true,
+                          "minZ": 1.25,
+                          "segments": [
+                            {
+                              "isGoal": false,
+                              "length": 10,
+                              "yAvailable": true,
+                              "segments": [
+                                {
+                                  "isGoal": true,
+                                  "length": 20,
+                                  "xAvailable": true,
+                                  "minX": 1.25
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "length": 20,
+                  "zRot": 1.57
+                },
+                {
+                  "length": 20,
+                  "zRot": -1.57
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

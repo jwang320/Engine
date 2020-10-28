@@ -1,0 +1,153 @@
+{
+  "segments": [
+    {
+      "xOffset": 200,
+      "isRoot": true,
+      "name": "foot",
+      "length": 0,
+      "segments": [
+        {
+          "zAvailable": true,
+          "yAvailable": true,
+          "minY": 0.1,
+          "repeat": 15,
+          "maxZ": 0.5,
+          "minZ": 0.5,
+          "length": 18,
+          "zRotAll": 0.10466,
+          "name": "leftLeg",
+          "endName": "leftLegEnd"
+        }
+      ]
+    },
+    {
+      "name": "otherLeg",
+      "endName": "rightLegEnd",
+      "parent": "leftLegEnd",
+      "zAvailable": true,
+      "repeat": 15,
+      "minZ": 0.15,
+      "length": 18,
+      "zRotAll": 0.10466,
+      "isFootGoal": true,
+      "zFootGoal": -150,
+      "xRot": -1.57
+    },
+    {
+      "name": "rightLeg",
+      "endName": "rightLegEnd",
+      "parent": "leftLegEnd",
+      "zAvailable": true,
+      "repeat": 15,
+      "maxZ": 0.15,
+      "minZ": 0.15,
+      "length": 18,
+      "zRotAll": 0.10466,
+      "isFootGoal": true,
+      "xFootGoal": -70
+    },
+    {
+      "repeat": 20,
+      "length": 15,
+      "isGoal": false,
+      "xAvailable": true,
+      "minX": 0.55,
+      "zRot": -1.57,
+      "name": "bigTorsoThing",
+      "parent": "leftLegEnd",
+      "segments": [
+        {
+          "isGoal": false,
+          "length": 10,
+          "xOffset": 0,
+          "yAvailable": true,
+          "segments": [
+            {
+              "isGoal": false,
+              "length": 25,
+              "xOffset": 20,
+              "xAvailable": true,
+              "minX": 1.25,
+              "segments": [
+                {
+                  "isGoal": false,
+                  "length": 5,
+                  "yAvailable": true,
+                  "segments": [
+                    {
+                      "isGoal": false,
+                      "length": 20,
+                      "zAvailable": true,
+                      "minZ": 1.25,
+                      "segments": [
+                        {
+                          "isGoal": false,
+                          "length": 10,
+                          "yAvailable": true,
+                          "segments": [
+                            {
+                              "isGoal": true,
+                              "length": 20,
+                              "xAvailable": true,
+                              "minX": 1.25
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "isGoal": false,
+              "length": 25,
+              "xOffset": -20,
+              "xAvailable": true,
+              "minX": 1.25,
+              "segments": [
+                {
+                  "isGoal": false,
+                  "length": 5,
+                  "xOffset": 0,
+                  "yAvailable": true,
+                  "segments": [
+                    {
+                      "isGoal": false,
+                      "length": 20,
+                      "zAvailable": true,
+                      "minZ": 1.25,
+                      "segments": [
+                        {
+                          "isGoal": false,
+                          "length": 10,
+                          "yAvailable": true,
+                          "segments": [
+                            {
+                              "isGoal": true,
+                              "length": 20,
+                              "xAvailable": true,
+                              "minX": 1.25
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "length": 20,
+              "zRot": 1.57
+            },
+            {
+              "length": 20,
+              "zRot": -1.57
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

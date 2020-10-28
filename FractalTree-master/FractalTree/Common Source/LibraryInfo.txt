@@ -1,0 +1,3 @@
+Libraries in this directory that I am NOT the author:
+lp_solve
+Util/Texture Loader/DDSTextureLoader

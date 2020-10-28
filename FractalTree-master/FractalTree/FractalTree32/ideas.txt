@@ -1,0 +1,23 @@
+vacuum segments
+
+magnet weapons that pull segments of enemies towards it
+
+enemies connected by wifi
+remove ai computer parts
+ai computer power
+
+incremental in-game machine learning for movement model for common behaviors; interesting if ai can't even walk at the beginning of the game. or dodge a missile;
+getting shot with a missile could teach the ai to dodge it
+
+terrain and plant growth around the character as the character walks; environment comes to life around it
+
+representation of depression;
+holes punched in the boundary walls of the game, revealing an undefinable and indescribable outside world
+
+off-putting surreal feeling
+
+disconnection between player and reality
+
+multi-thread inverse kinematics solver
+
+negative mass

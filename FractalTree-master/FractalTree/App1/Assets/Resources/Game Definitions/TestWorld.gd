@@ -1,0 +1,5 @@
+PlayerShipType string pixelrobot.m
+ArmorBlockStartCount int 10
+RegularBlockStartCount int 440
+GunBlockStartCount int 10
+ThrusterBlockStartCount int 0

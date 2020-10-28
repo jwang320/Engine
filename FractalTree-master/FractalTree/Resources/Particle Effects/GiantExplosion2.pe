@@ -1,0 +1,18 @@
+{
+    particleInitialAccelerationMagnitude float 0
+    maxConcurrentParticles uint 3000
+    emitCooldown uint 1
+    emitCountMin uint 50
+    emitPerDirectionCount uint 20
+    particleDuration uint 1200
+    particleInitialVelocityRotationRange XMFLOAT3 360 360 360
+    particleInitialSpeedMin float .51
+    particleInitialSpeedMax float 10.8
+    particleEmissionDirection list_XMVECTOR 0 1 0 0
+    particleEmissionDirection list_XMVECTOR 0 10 0 0
+    particleEmissionDirection list_XMVECTOR -20 0 0 0
+    particleRadiusFactor float .99999
+    particleRadius float 200
+    particleRadiusMin float 20
+    delay uint 5
+}

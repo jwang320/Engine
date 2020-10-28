@@ -1,0 +1,5 @@
+PlayerShipType string SmallCharacter.m
+ArmorBlockStartCount int 3
+RegularBlockStartCount int 10
+GunBlockStartCount int 1
+ThrusterBlockStartCount int 0

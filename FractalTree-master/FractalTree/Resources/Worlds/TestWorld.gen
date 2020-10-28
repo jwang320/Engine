@@ -1,0 +1,119 @@
+{
+	name func23
+	frequency .000005
+	amplitude 85500
+	contributeValue false
+
+	{
+		name func1gg
+		frequency .000025
+		amplitude 8550
+		contributeValue false
+	
+		[
+			name system1ghhh
+			octaveCount 8
+			octaveStart 0
+			persistence .45
+			scale 7500
+			frequencyMultiplier .25
+			contributeValue true
+
+			(
+				dependencyType COMPARE_GREATER_EQUAL
+				dependencyFailAction INTERPOLATE
+				dependentValue1 5000
+				dependentValue2 8000
+			)
+		]
+
+		(
+			dependencyType COMPARE_LESS_EQUAL
+			dependencyFailAction INTERPOLATE
+			dependentValue1 0
+			dependentValue2 3000
+		)
+	}
+
+	[
+		name system1aqqe
+		octaveCount 8
+		octaveStart 0
+		persistence .45
+		scale 37500
+		frequencyMultiplier .25
+		contributeValue true
+
+		(
+			dependencyType COMPARE_GREATER_EQUAL
+			dependencyFailAction INTERPOLATE
+			dependentValue1 10000
+			dependentValue2 6900
+		)
+	]
+
+	[
+		name system1bbv
+		octaveCount 8
+		octaveStart 0
+		persistence .1
+		scale 650
+		frequencyMultiplier .3
+		contributeValue true
+	]
+
+	{
+		name func1aqew
+		frequency .0005525
+		amplitude 100
+		contributeValue false 
+	
+		[
+			name system1
+			octaveCount 5
+			octaveStart 0
+			persistence .45
+			scale 300
+			frequencyMultiplier .15
+			contributeValue true
+
+			(
+				dependencyType COMPARE_GREATER_EQUAL
+				dependencyFailAction INTERPOLATE
+				dependentValue1 100
+				dependentValue2 100
+			)
+		]
+	}
+}
+
+/* [
+	name system1
+	octaveCount 8
+	octaveStart 0
+	persistence .46
+	scale 2950
+	frequencyMultiplier .10
+	contributeValue true
+] */
+
+/* {
+	name func1bbb
+	frequency .0025
+	amplitude 100
+	contributeValue true
+}
+
+{
+	name func2ssd
+	frequency .25
+	amplitude 1
+	contributeValue true
+} */
+
+/* {
+	name func132532
+	frequency .001
+	amplitude 3000
+	contributeValue true
+} */

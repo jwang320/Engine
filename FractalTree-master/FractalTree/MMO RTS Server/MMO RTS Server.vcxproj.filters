@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SpaceGame Common">
+      <UniqueIdentifier>{341119dc-5a17-4f28-9596-85a22b5faeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpaceGame Common\Core">
+      <UniqueIdentifier>{43050d00-e594-46d1-a046-0482bb0bd105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpaceGame Common\Game">
+      <UniqueIdentifier>{ca84eed6-f9c0-4253-8a58-c4b442dfd5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpaceGame Common\Game\Objects">
+      <UniqueIdentifier>{8a26e91b-3998-48f5-a6de-3d6f13f053f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server Core">
+      <UniqueIdentifier>{69068ba9-c5cf-46e8-b6bd-9c83ed77bf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source">
+      <UniqueIdentifier>{c8ad24bc-be09-4753-83fa-59ad10563db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Network">
+      <UniqueIdentifier>{cb23e706-6d05-4207-8915-64bf1627b476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\DAO">
+      <UniqueIdentifier>{26c9e3ed-4d0d-4a95-a1a3-d7fa2f285de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Simulation Engine">
+      <UniqueIdentifier>{d442557f-4694-4672-b30e-c63bc974ff66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Simulation Engine\Physical Simulation">
+      <UniqueIdentifier>{84195d1a-cb5e-4758-b223-08c08cda96f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Brain">
+      <UniqueIdentifier>{b5ccce8e-d57d-4fd4-a814-3ddf3d1f0af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects">
+      <UniqueIdentifier>{2934c985-dc84-46af-be48-62e41f0f2217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces">
+      <UniqueIdentifier>{74ce8d99-3c58-43e2-a142-a11e8a36a9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Simulation Engine\Base Simulation">
+      <UniqueIdentifier>{3a575c97-2e70-4cf3-956f-71dc51a65138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints">
+      <UniqueIdentifier>{9cc7860b-ef8c-44aa-9e52-2e7043c43c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Engine Source\Network\Http Server">
+      <UniqueIdentifier>{b260d252-9f6f-4875-9919-e5c04b0b636e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{9d7d0a30-4c36-4ffc-bf19-ce83d6f72e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\web pages">
+      <UniqueIdentifier>{f68c180b-4d6b-4f39-9a35-b4847623875a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\scripts">
+      <UniqueIdentifier>{5f08beef-0b1a-455c-8e61-b459e62768d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common Source\Network\NetworkDefinitions.cpp">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\Client.cpp">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\DAO\MySqlUserDAO.cpp">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Player.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\DAO\NullUserDAO.cpp">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Object.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\World.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ResourceManager.cpp">
+      <Filter>Source Files\Common Engine Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameSimulation.cpp">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameResources.cpp">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\Humanoid.cpp">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGamePlayer.cpp">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestFloor.cpp">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameWorld.cpp">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MMO RTS\pch.cpp">
+      <Filter>Source Files\Server Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Source Files\Server Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Server Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\SpaceBall.cpp">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\TCPServer.cpp">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\WebSockets.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpRequest.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpServer.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpUtils.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebApp.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Util.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Logger\Logger.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Util\sha1.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebPageApp\WebPageApp.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\Page.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\PageConstructor.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\WebNode.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\ContentHost.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\Folder.cpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\NetworkBase.cpp">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\NetworkServerBase.cpp">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\UDPServer.cpp">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\DAO\StatementWrapper.cpp">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\DAO\MySqlEntityStateLoader.cpp">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Item.cpp">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestGun.cpp">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common Source\Network\NetworkDefinitions.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkInitializationException.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\Client.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\DAO\UserDAO.h">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\DAO\MySqlUserDAO.h">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\DAO\NullUserDAO.h">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Player.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Object.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\World.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\TestMat.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ResourceManager.h">
+      <Filter>Source Files\Common Engine Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameSimulation.h">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameWorld.h">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameResources.h">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\Humanoid.h">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGamePlayer.h">
+      <Filter>Source Files\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestFloor.h">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>Source Files\Server Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MMO RTS\pch.h">
+      <Filter>Source Files\Server Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraint.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraintD.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\SpaceBall.h">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\TCPServer.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpUtils.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpRequest.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpServer.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebApp.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Util.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Logger\Logger.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Util\sha1.hpp">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebPageApp\WebPageApp.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\Folder.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\Page.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\PageConstructor.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\WebNode.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\ContentHost.h">
+      <Filter>Source Files\Common Engine Source\Network\Http Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkBase.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkServerBase.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\ServerPacketHolder.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\UDPServer.h">
+      <Filter>Source Files\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\DAO\StatementWrapper.h">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\DAO\EntityStateLoader.h">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\DAO\MySqlEntityStateLoader.h">
+      <Filter>Source Files\Common Engine Source\DAO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Item.h">
+      <Filter>Source Files\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestGun.h">
+      <Filter>Source Files\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\404.html">
+      <Filter>Resources\web pages</Filter>
+    </None>
+    <None Include="Content\Home.html">
+      <Filter>Resources\web pages</Filter>
+    </None>
+    <None Include="Content\scripts\Player.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\three.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\Utils.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\Vec4.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\BufferIterator.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\game.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\Command.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\Constants.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\RenderObject.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\Actor.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\InfoBoard.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\Renderer.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\GameWorld.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+    <None Include="Content\scripts\Application.js">
+      <Filter>Resources\scripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>

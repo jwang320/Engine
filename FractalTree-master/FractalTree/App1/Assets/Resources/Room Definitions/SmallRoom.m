@@ -1,0 +1,1 @@
+name: SmallRoom.bmp

@@ -1,0 +1,17 @@
+GridWidth float 10
+SquareWidth float 9.5
+MouseSensitivity float .5
+UseInstancing bool true
+WorldZDepth float 1
+BMPRegularBlockValue int 255
+BMPHeartBlockValue int 200
+BMPGunBlockValue int 150
+BMPArmorBlockValue int 100
+PlayerShipType string pixelrobot.m
+LockCamera bool true
+CanDie bool true
+StartX float 50
+StartY float 300
+SpawnEnemies bool true
+UseDiscreteAnimation bool true
+UseDiscreteAnimationPlayer bool false

@@ -1,0 +1,270 @@
+{
+  "segments": [
+    {
+      "xOffset": 30,
+      "isRoot": true,
+      "name": "foot",
+      "length": 0,
+      "segments": [
+        {
+          "zAvailable": true,
+          "xAvailable": false,
+          "repeat": 5,
+          "minZ": 1.5,
+          "minX": 0.5,
+          "length": 16,
+          "segments": [
+            {
+              "xOffset": -30,
+              "segments": [
+                {
+                  "repeat": 15,
+                  "length": 5,
+                  "isGoal": false,
+                  "xAvailable": true,
+                  "minX": 0.5,
+                  "segments": [
+                    {
+                      "isGoal": false,
+                      "length": 10,
+                      "xOffset": 0,
+                      "yAvailable": true,
+                      "segments": [
+                        {
+                          "isGoal": false,
+                          "length": 25,
+                          "xOffset": 20,
+                          "xAvailable": true,
+                          "minX": 1.25,
+                          "segments": [
+                            {
+                              "isGoal": false,
+                              "length": 5,
+                              "yAvailable": true,
+                              "segments": [
+                                {
+                                  "isGoal": false,
+                                  "length": 20,
+                                  "zAvailable": true,
+                                  "minZ": 1.25,
+                                  "segments": [
+                                    {
+                                      "isGoal": false,
+                                      "length": 10,
+                                      "yAvailable": true,
+                                      "segments": [
+                                        {
+                                          "isGoal": true,
+                                          "length": 20,
+                                          "xAvailable": true,
+                                          "minX": 1.25
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "isGoal": false,
+                          "length": 25,
+                          "xOffset": -20,
+                          "xAvailable": true,
+                          "minX": 1.25,
+                          "segments": [
+                            {
+                              "isGoal": false,
+                              "length": 5,
+                              "xOffset": 0,
+                              "yAvailable": true,
+                              "segments": [
+                                {
+                                  "isGoal": false,
+                                  "length": 20,
+                                  "zAvailable": true,
+                                  "minZ": 1.25,
+                                  "segments": [
+                                    {
+                                      "isGoal": false,
+                                      "length": 10,
+                                      "yAvailable": true,
+                                      "segments": [
+                                        {
+                                          "isGoal": true,
+                                          "length": 20,
+                                          "xAvailable": true,
+                                          "minX": 1.25
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "length": 20,
+                          "zRot": 1.57
+                        },
+                        {
+                          "length": 20,
+                          "zRot": -1.57
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "xOffset": -60,
+              "xRot": 3.1415,
+              "length": 0,
+              "segments": [
+                {
+                  "length": 16,
+                  "repeat": 5,
+                  "minZ": 1.5,
+                  "minX": 0.5,
+                  "zAvailable": true,
+                  "xAvailable": false,
+                  "isFootGoal": true
+                }
+              ]
+
+            },
+            {
+              "xOffset": -30,
+              "xRotAll": -0.3566,
+              "xRot": -1.00,
+              "length": 10,
+              "repeat": 6,
+              "segments": [
+                {
+                  "length": 10,
+                  "repeat": 5,
+                  "minZ": 1.5,
+                  "minX": 0.75,
+                  "xAvailable": true,
+                  "isFootGoal": true
+                }
+              ]
+
+            },
+            {
+              "zRot": 1.57,
+              "length": 60
+            },
+            {
+              "skip": true,
+              "isGoal": false,
+              "zAvailable": true,
+              "yAvailable": false,
+              "repeat": 8,
+              "minZ": 0.5,
+              "length": 15,
+              "zOffset": 0,
+              "xRot": 0.01,
+              "segments": [
+                {
+                  "isGoal": false,
+                  "length": 10,
+                  "xOffset": 0,
+                  "yAvailable": true,
+                  "segments": [
+                    {
+                      "isGoal": false,
+                      "length": 25,
+                      "xOffset": 20,
+                      "xAvailable": true,
+                      "minX": 1.25,
+                      "segments": [
+                        {
+                          "isGoal": false,
+                          "length": 5,
+                          "yAvailable": true,
+                          "segments": [
+                            {
+                              "isGoal": false,
+                              "length": 20,
+                              "zAvailable": true,
+                              "minZ": 1.25,
+                              "segments": [
+                                {
+                                  "isGoal": false,
+                                  "length": 10,
+                                  "yAvailable": true,
+                                  "segments": [
+                                    {
+                                      "isGoal": true,
+                                      "length": 20,
+                                      "xAvailable": true,
+                                      "minX": 1.25
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "isGoal": false,
+                      "length": 25,
+                      "xOffset": -20,
+                      "xAvailable": true,
+                      "minX": 1.25,
+                      "segments": [
+                        {
+                          "isGoal": false,
+                          "length": 5,
+                          "xOffset": 0,
+                          "yAvailable": true,
+                          "segments": [
+                            {
+                              "isGoal": false,
+                              "length": 20,
+                              "zAvailable": true,
+                              "minZ": 1.25,
+                              "segments": [
+                                {
+                                  "isGoal": false,
+                                  "length": 10,
+                                  "yAvailable": true,
+                                  "segments": [
+                                    {
+                                      "isGoal": true,
+                                      "length": 20,
+                                      "xAvailable": true,
+                                      "minX": 1.25
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "length": 20,
+                      "zRot": 1.57
+                    },
+                    {
+                      "length": 20,
+                      "zRot": -1.57
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "segments": [
+    {
+      "xOffset": -10,
+      "name": "leftLeg",
+      "length": 3,
+      "segments": [
+        {
+          "length": 20,
+          "repeat": 4,
+          "yAvailable": false,
+          "name": "leftLegEnd",
+          "zAvailable": true,
+          "minZ": 0.725
+        }
+      ]
+    },
+    {
+      "xOffset": 10,
+      "name": "rightLeg",
+      "length": 3,
+      "segments": [
+        {
+          "length": 20,
+          "repeat": 4,
+          "name": "rightLegEnd",
+          "zAvailable": true,
+          "yAvailable": false,
+          "minZ": 0.725
+        }
+      ]
+    },
+    {
+      "zOffset": -15,
+      "name": "frontLeg",
+      "length": 3,
+      "skip": true,
+      "segments": [
+        {
+          "length": 20,
+          "repeat": 5,
+          "yAvailable": false,
+          "name": "frontLegEnd",
+          "xAvailable": true,
+          "minX": 0.5
+        }
+      ]
+    },
+    {
+      "zOffset": 15,
+      "name": "backLeg",
+      "length": 3,
+      "skip": true,
+      "segments": [
+        {
+          "length": 20,
+          "repeat": 5,
+          "name": "backLegEnd",
+          "xAvailable": true,
+          "yAvailable": false,
+          "minX": 0.5
+        }
+      ]
+    },
+    {
+      "name": "torso",
+      "parents": [ "leftLegEnd", "rightLegEnd"],
+      "parents2": [ "leftLegEnd", "rightLegEnd", "frontLegEnd", "backLegEnd" ],
+      "forceRoot": true,
+      "parentss": [ "leftLeg" ],
+      "yAvailable": true,
+      "length": 25,
+      "segments": [
+        {
+          "xAvailable": true,
+          "yAvailable": false,
+          "repeat": 6,
+          "isGoal": true,
+          "length": 25,
+          "minX": 0.5
+        },
+        {
+          "skip": true,
+          "xOffset": 25,
+          "segments": [
+            {
+              "xAvailable": true,
+              "yAvailable": true,
+              "repeat": 6,
+              "isGoal": true,
+              "length": 25,
+              "minX": 1.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

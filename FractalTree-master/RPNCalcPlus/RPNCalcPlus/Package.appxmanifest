@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="63419Vexal.RPNCalculator" Publisher="CN=B4E2D962-C9FF-417F-8935-2C317064B331" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>RPNCalculator+</DisplayName>
+    <PublisherDisplayName>Vexal</PublisherDisplayName>
+    <Logo>rpncalclogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="RPNCalcPlus.App">
+      <VisualElements DisplayName="RPNCalculator+" Logo="rpncalclogotile2.png" SmallLogo="rpncalclogotiny.png" Description="RPNCalcPlus" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="noLogos" ShortName="RPNCalc+" />
+        <SplashScreen Image="rpncalclogosplash.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

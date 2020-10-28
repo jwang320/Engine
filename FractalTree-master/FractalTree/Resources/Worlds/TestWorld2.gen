@@ -1,0 +1,20 @@
+/* [
+	name system1bbv
+	octaveCount 10
+	octaveStart 0
+	persistence .4
+	scale 500
+	frequencyMultiplier .35
+	contributeValue true
+	falloffPower 3
+] */
+
+/* [
+	name system1bbv
+	octaveCount 5
+	octaveStart 0
+	persistence .4
+	scale 200
+	frequencyMultiplier .3
+	contributeValue true
+] */

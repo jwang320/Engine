@@ -1,0 +1,80 @@
+{
+  "segments": [
+    {
+      "xOffset": -20,
+      "yOffset": 0,
+      "name": "leftLeg",
+      "repeat": 2,
+      "xAvailable": true,
+      "yAvailable": false,
+      "minX": 0.5
+    },
+    {
+      "xOffset": 20,
+      "yOffset": 0,
+      "xRot": 0,
+      "repeat": 2,
+      "name": "rightLeg",
+      "xAvailable": true,
+      "yAvailable": false,
+      "minX": 0.35
+    },
+    {
+      "zOffset": 20,
+      "yOffset": 0,
+      "name": "backLeg",
+      "repeat": 2,
+      "zAvailable": true,
+      "yAvailable": false,
+      "minZ": 0.5
+    },
+    {
+      "zOffset": -20,
+      "yOffset": 0,
+      "xRot": 0,
+      "repeat": 2,
+      "name": "frontLeg",
+      "zAvailable": true,
+      "yAvailable": false,
+      "minZ": 0.35
+    },
+    {
+      "name": "torso",
+      "parents": [ "leftLeg", "rightLeg", "frontLeg", "backLeg" ],
+      "forceRoot": true,
+      "parentss": [ "leftLeg" ],
+      "xAvailable": true,
+      "minX": 0.6,
+      "segments": [
+        {
+          "skip": false,
+          "xOffset": 0,
+          "segments": [
+            {
+              "xAvailable": true,
+              "yAvailable": true,
+              "repeat": 6,
+              "isGoal": true,
+              "length": 25,
+              "minX": 1.5
+            }
+          ]
+        },
+        {
+          "skip": true,
+          "xOffset": 25,
+          "segments": [
+            {
+              "xAvailable": true,
+              "yAvailable": true,
+              "repeat": 6,
+              "isGoal": true,
+              "length": 25,
+              "minX": 1.5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{9e92cfca-79fa-48d2-bf25-afb191508a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{1099bfb9-445a-479a-b38b-6305990f1301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Fonts">
+      <UniqueIdentifier>{7bc6fa1e-4849-4206-b512-4985d197db39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Snow">
+      <UniqueIdentifier>{284bf4f7-128e-49d2-a4df-61d2caab84bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Dirt">
+      <UniqueIdentifier>{93180b7b-9a1b-43f2-82a5-ab27094e2934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Grass">
+      <UniqueIdentifier>{57adac5d-d2c3-4aab-b431-004beeaa14a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Floor">
+      <UniqueIdentifier>{700b45f5-b9a9-4d3b-b700-1048f61b9fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Rock">
+      <UniqueIdentifier>{ef9ef867-97b1-477f-8c4a-589ebf3b7e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Bump Map">
+      <UniqueIdentifier>{5c6000b5-4b01-4168-87bd-0c5ddb142bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Sand">
+      <UniqueIdentifier>{dec4adfb-0b86-496c-a31c-9200c9e9a244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Brick">
+      <UniqueIdentifier>{b63edecc-244a-4bbe-9568-5716340811cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Leaves">
+      <UniqueIdentifier>{af36d5a5-487c-45f6-9d1c-5254ce31f7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{ce0ad0c9-98ae-47a3-ac09-5794146961f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Particle Effects">
+      <UniqueIdentifier>{48addd5f-0e62-47e3-a377-efaf96a498d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Web 3.0">
+      <UniqueIdentifier>{1b19ebec-80b4-4e0d-a53a-ccf43b680f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Worlds">
+      <UniqueIdentifier>{2466103f-fffa-447b-a6ec-433238b88de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{6e5967fd-6830-484e-bb5d-cb4b44fc3504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Rendering">
+      <UniqueIdentifier>{7ed86cbf-8447-476e-903d-2fa12eac9c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\UI">
+      <UniqueIdentifier>{a69d1e73-ce26-4546-b7ec-02665fec41da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Rendering\Shaders">
+      <UniqueIdentifier>{c56fa933-bb91-4ef3-b67d-75bd15890a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Util">
+      <UniqueIdentifier>{9170adb7-2bcf-44c5-894a-5d4563a0c516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Util\Resource Loader">
+      <UniqueIdentifier>{d8712cb4-305d-4f7d-ac97-ec997d38303a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source">
+      <UniqueIdentifier>{4fd80e2b-a9cc-47a8-9adb-6ccd784cb765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\LSystem">
+      <UniqueIdentifier>{fa53c8ca-50dc-4f5f-87d8-6585be4cce88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Procedural Generation">
+      <UniqueIdentifier>{24bf242e-14cf-4fbc-a87a-56c00909c83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Procedural Generation\Noise">
+      <UniqueIdentifier>{855ac2b4-690a-48be-aa5b-eef29f54da50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Mesh">
+      <UniqueIdentifier>{82b9cd0b-a06f-462f-a8da-f4b45287b068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util">
+      <UniqueIdentifier>{b505229a-6951-4535-9cb6-ebe4375d70d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\File Parser">
+      <UniqueIdentifier>{1243e321-0e78-4c22-97ea-25d1be20872d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\File Parser\ASCII">
+      <UniqueIdentifier>{27e6276f-86c1-4d4d-9dc7-dc2a402e3d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\Model Parser">
+      <UniqueIdentifier>{02f6a352-3467-4e58-998e-59e9b178f2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\Model Parser\3DS Max">
+      <UniqueIdentifier>{0d9d9429-8798-491b-9d8c-b26201e26b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\Texture Loader">
+      <UniqueIdentifier>{06a7317d-dc18-4e18-8260-7e6505dea363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Util\File Parser\BMP">
+      <UniqueIdentifier>{d958743c-03a1-47ca-b937-2ea87d6b291f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\FractalTree Common">
+      <UniqueIdentifier>{b0279aba-873d-4e83-aeb1-33bcd5996bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\FractalTree Common\Game Objects">
+      <UniqueIdentifier>{484e90be-a86f-41c8-91d3-ce6fb8247b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\FractalTree Common\Game Objects\Objects">
+      <UniqueIdentifier>{80145910-961d-44fd-be56-50ec7685955d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\FractalTree Common\Game Objects\Items">
+      <UniqueIdentifier>{89d60df5-ad9a-40e2-9e81-9ba49d7ed642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\UI">
+      <UniqueIdentifier>{a0108fbb-5c07-4959-9545-752c3458510a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\UI\UI Element Types">
+      <UniqueIdentifier>{0b7a2330-928d-4ccd-af03-89229f057786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Simulation Engine">
+      <UniqueIdentifier>{d97f6c1a-2f55-49e1-8f02-c29e8125645a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Simulation Engine\Physical Simulation">
+      <UniqueIdentifier>{64667e39-4569-4bae-956a-aaa971b9a2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Simulation Engine\Physical Simulation\Brain">
+      <UniqueIdentifier>{d0b18a29-8296-4500-978a-99a2caba43e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Simulation Engine\Physical Simulation\Effects">
+      <UniqueIdentifier>{f9593eaf-7ba2-429f-a042-41c35951bc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\lp_solve">
+      <UniqueIdentifier>{a8fe9c9e-5df6-4fea-bfc3-6f63fd77e505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Simulation Engine\Physical Simulation\Interfaces">
+      <UniqueIdentifier>{780d9fb8-fc91-41b1-8600-4ff4ca4a5699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Simulation Engine\Base Simulation">
+      <UniqueIdentifier>{5b41b824-9775-4bbe-a751-ca51379e72ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Rendering Engine">
+      <UniqueIdentifier>{3d761d3a-f649-4aa5-97be-2dae51189522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Rendering Engine\Rendering Engine Base">
+      <UniqueIdentifier>{4b9b2296-dae5-4a66-977e-0658be615ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Rendering Engine\Rendering Engine Sample">
+      <UniqueIdentifier>{c1a13072-35cb-484e-8c1d-3b4d8ad72daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Rendering Engine\Rendering Engine Standard">
+      <UniqueIdentifier>{ac3885ec-cb67-4c3d-a326-2c0275e0a0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\FractalTree Common\Common Core">
+      <UniqueIdentifier>{c90ce2d4-51b2-4c48-853c-d192f251116b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Terrain Simulation">
+      <UniqueIdentifier>{c0c3ab9b-f6b8-4ae1-84c7-301c17a636e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Skeleton">
+      <UniqueIdentifier>{0e7e59b9-b6c5-4ba3-a9de-fad52150a494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Eigen">
+      <UniqueIdentifier>{9212b8e6-f8e5-4633-a70f-85ea4bfd0de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Robot Skeletons">
+      <UniqueIdentifier>{86435407-89e0-4a01-9607-52ab0cae218f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\json parser">
+      <UniqueIdentifier>{2d29485b-744a-4317-b997-fc44b5ddb75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Client Core">
+      <UniqueIdentifier>{3ab5690b-9734-4188-860c-62d0a2be3d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Source\Network">
+      <UniqueIdentifier>{f6515485-3db0-40ba-9ded-dfed88d3f646}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\UIImage.cpp">
+      <Filter>Source Code\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\UIMapEditor.cpp">
+      <Filter>Source Code\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceManager.cpp">
+      <Filter>Source Code\Util\Resource Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Application.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeApplicationIO.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeApplication.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorRendererBindingGraph.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeWindow.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeResources.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeRenderer.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\UIRenderer.cpp">
+      <Filter>Source Code\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeModelInitialization.cpp">
+      <Filter>Source Code\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTreeShaderInitialization.cpp">
+      <Filter>Source Code\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ObjectRendererBinding.cpp">
+      <Filter>Source Code\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\DirectComputeNode.cpp">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\GenerationNode.cpp">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\NoiseNode.cpp">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\PerlinNoise.cpp">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\PerlinNoiseNode.cpp">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\ProceduralGeneration.cpp">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\SimplexNoiseNode.cpp">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Mesh\HeightMapMesh.cpp">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.cpp">
+      <Filter>Source Code\Common Source\Util\Model Parser\3DS Max</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\File Parser\ASCII\ParserHelper.cpp">
+      <Filter>Source Code\Common Source\Util\File Parser\ASCII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.cpp">
+      <Filter>Source Code\Common Source\Util\Texture Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\File Parser\BMP\FileLoader.cpp">
+      <Filter>Source Code\Common Source\Util\File Parser\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Mesh\Mesh.cpp">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\BadGuy.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\DecentMissile.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\DecentMissileLauncher.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\Humanoid.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\IneffectiveMissile.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\IneffectiveMissileLauncher.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\GoodGuy.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\Projectile.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\TheSun.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\TreeActor.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\TestFloor.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\TestMissileLauncher.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\Weapon.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\LSystem\LSystem.cpp">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\LSystem\SpatialLSystemSegment.cpp">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\LSystem\SystemParameters.cpp">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\LSystem\TreeTrunkSegment.cpp">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Mesh\Geometry.cpp">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\Model Parser\3DS Max\FBXModelParser.cpp">
+      <Filter>Source Code\Common Source\Util\Model Parser\3DS Max</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\Terrain.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Player.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\colamd\colamd.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\commonlib.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\ini.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_crash.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_Hash.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_lib.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\lp_LUSOL.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_matrix.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_MDO.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_mipbb.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_MPS.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_params.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_presolve.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_price.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_pricePSE.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_report.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_scale.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_simplex.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_SOS.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_utils.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_wlp.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\lusol.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\mmio.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\myblas.c">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\World.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Object.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIElement.cpp">
+      <Filter>Source Code\Common Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\Window.cpp">
+      <Filter>Source Code\Common Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIButton.cpp">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIContainer.cpp">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIEmptyElement.cpp">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UILayoutElement.cpp">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UITextOutputBox.cpp">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIToggleButton.cpp">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DRenderer.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\ModelBufferData.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\BaseRendererResources.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DBase.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Sample\SampleRenderer.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleNode.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleSystem.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneEntity.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneGraph.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneNode.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardCubeRenderer.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererInitialization.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererResources.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Direct3DModelInitialization.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelNode.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Particle.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleEntity.cpp">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\BoundingBox.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\FractalTreeSimulation.cpp">
+      <Filter>Source Code\FractalTree Common\Common Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\FractalTreeWorld.cpp">
+      <Filter>Source Code\FractalTree Common\Common Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Terrain Simulation\TerrainResources.cpp">
+      <Filter>Source Code\Common Source\Terrain Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\LSystem\SpatialLSystem.cpp">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Terrain Simulation\GrowthSimulation.cpp">
+      <Filter>Source Code\Common Source\Terrain Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\TestUserOfSkeleton.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Skeleton\SkeletonSegment.cpp">
+      <Filter>Source Code\Common Source\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Skeleton\Skeleton.cpp">
+      <Filter>Source Code\Common Source\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Terrain Simulation\Growable.cpp">
+      <Filter>Source Code\Common Source\Terrain Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\TestChainLink.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\TestSkeletonArmSegment.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\Robot.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\DynamicUserOfSkeleton.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FractalTree Common\Game Objects\Objects\CharacterWithSkeleton.cpp">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\Client.cpp">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\NetworkDefinitions.cpp">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\UDPClient.cpp">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\NetworkBase.cpp">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\NetworkServerBase.cpp">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Item.cpp">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\UIMapEditor.h">
+      <Filter>Source Code\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UIImage.h">
+      <Filter>Source Code\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResourceManager.h">
+      <Filter>Source Code\Util\Resource Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Application.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalTreeApplication.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorRendererBindingGraph.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalTreeWindow.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalTreeResources.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalTreeRenderer.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UIRenderer.h">
+      <Filter>Source Code\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ObjectRendererBinding.h">
+      <Filter>Source Code\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\DirectComputeNode.h">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\GenerationNode.h">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\NoiseNode.h">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\PerlinNoise.h">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\PerlinNoiseNode.h">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\ProceduralGeneration.h">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\SImplexNoiseNode.h">
+      <Filter>Source Code\Common Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Mesh\HeightMapMesh.h">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.h">
+      <Filter>Source Code\Common Source\Util\Model Parser\3DS Max</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\File Parser\ASCII\ParseHelper.h">
+      <Filter>Source Code\Common Source\Util\File Parser\ASCII</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.h">
+      <Filter>Source Code\Common Source\Util\Texture Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\File Parser\BMP\FileLoader.h">
+      <Filter>Source Code\Common Source\Util\File Parser\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Mesh\Mesh.h">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\BadGuy.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\DecentMissile.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\DecentMissileLauncher.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\Humanoid.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\IneffectiveMissile.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\IneffectiveMissileLauncher.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\GoodGuy.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\Projectile.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\TestMissileLauncher.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\TheSun.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\TreeActor.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\TestFloor.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\Weapon.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\LSystem\LSystem.h">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\LSystem\SystemParameters.h">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\LSystem\TreeTrunkSegment.h">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\LSystem\SpatialLSystemSegment.h">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Mesh\Geometry.h">
+      <Filter>Source Code\Common Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\Model Parser\3DS Max\FBXModelParser.h">
+      <Filter>Source Code\Common Source\Util\Model Parser\3DS Max</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\Terrain.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Player.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\colamd\colamd.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\commonlib.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\declare.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\ini.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\lp_BFP.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_bit.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_crash.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_explicit.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_fortify.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_Hash.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_lib.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\lp_LUSOL.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_matrix.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_MDO.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_mipbb.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_MPS.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_presolve.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_price.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_pricePSE.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_report.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_scale.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_simplex.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_SOS.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_types.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_utils.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_wlp.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpkit.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpsolve.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\lusol.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\mmio.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\mmio.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\myblas.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\myblas.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\ufortify.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpsolve55\resource.h">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\World.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Object.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\Window.h">
+      <Filter>Source Code\Common Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIElement.h">
+      <Filter>Source Code\Common Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIButton.h">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIContainer.h">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIEmptyElement.h">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UILayoutElement.h">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UITextOutputBox.h">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIToggleButton.h">
+      <Filter>Source Code\Common Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DBase.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DRenderer.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\ModelBufferData.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\BaseRendererResources.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Sample\SampleRenderer.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleNode.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleSystem.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneEntity.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneGraph.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneNode.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardCubeRenderer.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererResources.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelNode.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelVertexTypes.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Particle.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleEntity.h">
+      <Filter>Source Code\Common Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\FractalTreeSimulation.h">
+      <Filter>Source Code\FractalTree Common\Common Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\FractalTreeWorld.h">
+      <Filter>Source Code\FractalTree Common\Common Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Terrain Simulation\TerrainResources.h">
+      <Filter>Source Code\Common Source\Terrain Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\LSystem\SpatialLSystem.h">
+      <Filter>Source Code\Common Source\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Terrain Simulation\GrowthSimulation.h">
+      <Filter>Source Code\Common Source\Terrain Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Terrain Simulation\Growable.h">
+      <Filter>Source Code\Common Source\Terrain Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Terrain Simulation\Voxelizable.h">
+      <Filter>Source Code\Common Source\Terrain Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Skeleton\Skeleton.h">
+      <Filter>Source Code\Common Source\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Skeleton\SkeletonSegment.h">
+      <Filter>Source Code\Common Source\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\TestUserOfSkeleton.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\TestChainLink.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\TestMat.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\TestSkeletonArmSegment.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\json\json.hpp">
+      <Filter>Source Code\Common Source\json parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Skeleton\SegmentConnection.h">
+      <Filter>Source Code\Common Source\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\Robot.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\DynamicUserOfSkeleton.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UIShape.h">
+      <Filter>Source Code\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Skeleton\BasicTypes.h">
+      <Filter>Source Code\Common Source\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FractalTree Common\Game Objects\Objects\CharacterWithSkeleton.h">
+      <Filter>Source Code\FractalTree Common\Game Objects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraint.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraintD.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\MathUtil.h">
+      <Filter>Source Code\Common Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\Client.h">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkDefinitions.h">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkInitializationException.h">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\UDPClient.h">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\TCPServer.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkBase.h">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkServerBase.h">
+      <Filter>Source Code\Common Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Item.h">
+      <Filter>Source Code\Common Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Cholesky\LDLT.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Cholesky\LLT.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Cholesky\LLT_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\CholmodSupport\CholmodSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AltiVec\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AltiVec\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AltiVec\MatrixProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AltiVec\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX\TypeCasting.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX512\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX512\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX512\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\AVX512\TypeCasting.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\CUDA\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\Default\ConjHelper.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\Default\GenericPacketMathFunctionsFwd.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\Default\Half.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\Default\Settings.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\Default\TypeCasting.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\GPU\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\GPU\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\GPU\TypeCasting.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\HIP\hcc\math_constants.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\MSA\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\MSA\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\MSA\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\NEON\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\NEON\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\NEON\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\NEON\TypeCasting.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SSE\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SSE\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SSE\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SSE\TypeCasting.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SYCL\InteropHeaders.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SYCL\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SYCL\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SYCL\SyclMemoryModel.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\SYCL\TypeCasting.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\ZVector\Complex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\ZVector\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\arch\ZVector\PacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\ArithmeticSequence.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Array.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\ArrayBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\ArrayWrapper.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Assign.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\AssignEvaluator.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Assign_MKL.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\BandMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Block.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\BooleanRedux.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CommaInitializer.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\ConditionEstimator.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CoreEvaluators.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CoreIterators.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CwiseBinaryOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CwiseNullaryOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CwiseTernaryOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CwiseUnaryOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\CwiseUnaryView.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\DenseBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\DenseCoeffsBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\DenseStorage.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Diagonal.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\DiagonalMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\DiagonalProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Dot.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\EigenBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\ForceAlignedAccess.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\functors\AssignmentFunctors.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\functors\BinaryFunctors.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\functors\NullaryFunctors.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\functors\StlFunctors.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\functors\TernaryFunctors.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\functors\UnaryFunctors.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Fuzzy.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\GeneralProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\GenericPacketMath.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\GlobalFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\IndexedView.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Inverse.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\IO.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Map.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\MapBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\MathFunctions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\MathFunctionsImpl.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Matrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\MatrixBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\NestByValue.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\NoAlias.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\NumTraits.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\PartialReduxEvaluator.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\PermutationMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\PlainObjectBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Product.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\ProductEvaluators.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\GeneralBlockPanelKernel.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\GeneralMatrixMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\GeneralMatrixMatrixTriangular.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\GeneralMatrixMatrixTriangular_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\GeneralMatrixMatrix_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\GeneralMatrixVector.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\GeneralMatrixVector_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\Parallelizer.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\SelfadjointMatrixMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\SelfadjointMatrixMatrix_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\SelfadjointMatrixVector.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\SelfadjointMatrixVector_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\SelfadjointProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\SelfadjointRank2Update.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\TriangularMatrixMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\TriangularMatrixMatrix_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\TriangularMatrixVector.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\TriangularMatrixVector_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\TriangularSolverMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\TriangularSolverMatrix_BLAS.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\products\TriangularSolverVector.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Random.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Redux.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Ref.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Replicate.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Reshaped.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\ReturnByValue.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Reverse.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Select.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\SelfAdjointView.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\SelfCwiseBinaryOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Solve.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\SolverBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\SolveTriangular.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\StableNorm.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\StlIterators.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Stride.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Swap.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Transpose.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Transpositions.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\TriangularMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\BlasUtil.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\ConfigureVectorization.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\Constants.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\DisableStupidWarnings.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\ForwardDeclarations.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\IndexedViewHelper.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\IntegralConstant.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\Macros.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\Memory.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\Meta.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\MKL_support.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\NonMPL2.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\ReenableStupidWarnings.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\ReshapedHelper.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\StaticAssert.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\SymbolicIndex.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\util\XprHelper.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\VectorBlock.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\VectorwiseOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Core\Visitor.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\ComplexEigenSolver.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\ComplexSchur.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\ComplexSchur_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\EigenSolver.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\GeneralizedEigenSolver.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\HessenbergDecomposition.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\MatrixBaseEigenvalues.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\RealQZ.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\RealSchur.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\RealSchur_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\SelfAdjointEigenSolver.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\SelfAdjointEigenSolver_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Eigenvalues\Tridiagonalization.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\AlignedBox.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\AngleAxis.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\arch\Geometry_SSE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\EulerAngles.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Homogeneous.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Hyperplane.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\OrthoMethods.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\ParametrizedLine.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Quaternion.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Rotation2D.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\RotationBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Scaling.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Transform.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Translation.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Geometry\Umeyama.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Householder\BlockHouseholder.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Householder\Householder.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Householder\HouseholderSequence.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\BasicPreconditioners.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\BiCGSTAB.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\ConjugateGradient.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\IncompleteCholesky.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\IncompleteLUT.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\IterativeSolverBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\LeastSquareConjugateGradient.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\IterativeLinearSolvers\SolveWithGuess.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\Jacobi\Jacobi.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\KLUSupport\KLUSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\LU\arch\Inverse_SSE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\LU\Determinant.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\LU\FullPivLU.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\LU\InverseImpl.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\LU\PartialPivLU.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\LU\PartialPivLU_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\MetisSupport\MetisSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\misc\blas.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\misc\Image.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\misc\Kernel.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\misc\lapack.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\misc\lapacke.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\misc\lapacke_mangling.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\misc\RealSvd2x2.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\OrderingMethods\Amd.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\OrderingMethods\Eigen_Colamd.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\OrderingMethods\Ordering.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\PardisoSupport\PardisoSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\PaStiXSupport\PaStiXSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\ArrayCwiseBinaryOps.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\ArrayCwiseUnaryOps.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\BlockMethods.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\CommonCwiseBinaryOps.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\CommonCwiseUnaryOps.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\IndexedViewMethods.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\MatrixCwiseBinaryOps.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\MatrixCwiseUnaryOps.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\plugins\ReshapedMethods.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\QR\ColPivHouseholderQR.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\QR\ColPivHouseholderQR_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\QR\CompleteOrthogonalDecomposition.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\QR\FullPivHouseholderQR.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\QR\HouseholderQR.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\QR\HouseholderQR_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCholesky\SimplicialCholesky.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCholesky\SimplicialCholesky_impl.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\AmbiVector.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\CompressedStorage.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\ConservativeSparseSparseProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\MappedSparseMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseAssign.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseBlock.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseColEtree.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseCompressedBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseCwiseBinaryOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseCwiseUnaryOp.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseDenseProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseDiagonalProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseDot.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseFuzzy.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseMap.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseMatrixBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparsePermutation.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseProduct.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseRedux.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseRef.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseSelfAdjointView.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseSolverBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseSparseProductWithPruning.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseTranspose.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseTriangularView.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseUtil.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseVector.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\SparseView.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseCore\TriangularSolver.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLUImpl.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_column_bmod.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_column_dfs.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_copy_to_ucol.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_gemm_kernel.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_heap_relax_snode.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_kernel_bmod.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_Memory.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_panel_bmod.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_panel_dfs.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_pivotL.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_pruneL.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_relax_snode.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_Structs.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_SupernodalMatrix.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseLU\SparseLU_Utils.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SparseQR\SparseQR.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SPQRSupport\SuiteSparseQRSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\StlSupport\details.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\StlSupport\StdDeque.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\StlSupport\StdList.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\StlSupport\StdVector.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SuperLUSupport\SuperLUSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SVD\BDCSVD.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SVD\JacobiSVD.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SVD\JacobiSVD_LAPACKE.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SVD\SVDBase.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\SVD\UpperBidiagonalization.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Eigen\src\UmfPackSupport\UmfPackSupport.h">
+      <Filter>Source Code\Common Source\Eigen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Src\SimplePixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SimpleVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIPixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\FontPixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\SimpleMountainPixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\TreePixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\ParticlePixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\ParticleVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\TerrainVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\InstancedFoliageVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\FoliagePixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\ShadowVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\ShadowPixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\InstancedShadowVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\HDRVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\HDRPixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\WorldFontVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\WireFrameVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\WireFramePixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SkyVertexShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SkyPixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\BlurShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\BloomCombineShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\LuminancePixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\WaterPixelShader.hlsl">
+      <Filter>Source Code\Rendering\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Textures\Fonts\fonttnr.fnt">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </None>
+    <None Include="..\Resources\Models\floor6.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\floor7.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\newmissiletest.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\newmissiletest2.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\pyramid2.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\Sphere.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\teapot.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\teapot2.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\cube2.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\facetCone.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\floor.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\floor2.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\floor4.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\floor5.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship2coarse.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship2coarse.FBX">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship3.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testbox.FBX">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship.FBX">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship2.FBX">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\BasicFireTrail.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\IneffectiveMissileFireTrail.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\DecentMissileFireTrail.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\GiantExplosion.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\MediumExplosion.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\GrenadeFireTrail.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship4.ase">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\GiantExplosion2.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Models\divhouse.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\module.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\badship.ase">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Worlds\TestWorld.gen">
+      <Filter>Resources\Worlds</Filter>
+    </None>
+    <None Include="..\Resources\Worlds\TestWorld2.gen">
+      <Filter>Resources\Worlds</Filter>
+    </None>
+    <None Include="..\Resources\Worlds\TestWorld3.gen">
+      <Filter>Resources\Worlds</Filter>
+    </None>
+    <None Include="..\Resources\Models\SkyDome.ase">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\ResourceList.rl">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Resources\Models\sphere.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\Pyramid2.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\newmissiletest2.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\cube2.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship2coarse.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\testship4.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\divhouse.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\module.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\badship.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\teapot.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\SkyDome.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Worlds\TestWorld4.gen">
+      <Filter>Resources\Worlds</Filter>
+    </None>
+    <None Include="..\Resources\Worlds\TestWorld5.gen">
+      <Filter>Resources\Worlds</Filter>
+    </None>
+    <None Include="..\Resources\Models\creepymouse.ase">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\creepymouse.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Common Source\lp_solve_5.5\lp_solve.def">
+      <Filter>Source Code\Common Source\lp_solve</Filter>
+    </None>
+    <None Include="..\Resources\Particle Effects\HitExplosion.pe">
+      <Filter>Resources\Particle Effects</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton2.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton3.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton4.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton5.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton6.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton7.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton8.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+    <None Include="..\Resources\Robot Skeletons\TestSkeleton9.json">
+      <Filter>Resources\Robot Skeletons</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Textures\Fonts\font.dds">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Fonts\fonttnr_0.dds">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\SnowIceTexture0008.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\SnowIceTexture0001.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\SnowIceTexture0002.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\SnowIceTexture0003.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\SnowIceTexture0004.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\SnowIceTexture0006.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\SnowIceTexture0007.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\dirt.dds">
+      <Filter>Resources\Textures\Dirt</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\dirt01.dds">
+      <Filter>Resources\Textures\Dirt</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\dirt2.dds">
+      <Filter>Resources\Textures\Dirt</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\dirt_2048.dds">
+      <Filter>Resources\Textures\Dirt</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\grass1.dds">
+      <Filter>Resources\Textures\Grass</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\grass2.dds">
+      <Filter>Resources\Textures\Grass</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\seamless_tiled_grass_texture_by_lendrick.dds">
+      <Filter>Resources\Textures\Grass</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\grass_1_2048x2048.dds">
+      <Filter>Resources\Textures\Grass</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\floor slab.dds">
+      <Filter>Resources\Textures\Floor</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\stone01.dds">
+      <Filter>Resources\Textures\Floor</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\TileableIceLarge.dds">
+      <Filter>Resources\Textures\Snow</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\stone_1_2048x2048.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\reptilianskin.dds">
+      <Filter>Resources\Textures\Floor</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\bump01.dds">
+      <Filter>Resources\Textures\Bump Map</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\rock2_bump.dds">
+      <Filter>Resources\Textures\Bump Map</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\displacement.dds">
+      <Filter>Resources\Textures\Bump Map</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\1024px-Seamless_dirt_texture_by_hhh316.dds">
+      <Filter>Resources\Textures\Dirt</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Stone_LightGrey.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Stone_Dark.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Stone_DarkBrown.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Stone_DarkGray.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Stone_LightBrown.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\rock.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\rock_gray_viens_2048.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\rock texture.dds">
+      <Filter>Resources\Textures\Rock</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\sand.dds">
+      <Filter>Resources\Textures\Sand</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\sand2.dds">
+      <Filter>Resources\Textures\Sand</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Seamless beach sand 2 texture.dds">
+      <Filter>Resources\Textures\Sand</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\soil.dds">
+      <Filter>Resources\Textures\Sand</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\bricks.dds">
+      <Filter>Resources\Textures\Brick</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\explosion-30mnx.dds">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Leaf_1_Color.dds">
+      <Filter>Resources\Textures\Leaves</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\Leaf_1_Normal.dds">
+      <Filter>Resources\Textures\Leaves</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\grassWalpha.dds">
+      <Filter>Resources\Textures\Grass</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\grasswip1.dds">
+      <Filter>Resources\Textures\Grass</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\hortus3d_hibiscus_01.dds">
+      <Filter>Resources\Textures\Grass</Filter>
+    </Image>
+    <Image Include="..\Bitmap1.bmp">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\corgifull.dds">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\corgifullb.dds">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\organtexture.dds">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\dirt3.dds">
+      <Filter>Resources\Textures\Dirt</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\bump.dds">
+      <Filter>Resources\Textures\Bump Map</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\dirtm.dds">
+      <Filter>Resources\Textures\Bump Map</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\bumpm.dds">
+      <Filter>Resources\Textures\Bump Map</Filter>
+    </Image>
+    <Image Include="..\Resources\Textures\model_norm.dds">
+      <Filter>Resources\Textures\Bump Map</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resources\Textures\Fonts\fontdata.txt">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </Text>
+    <Text Include="..\heightmaps.txt">
+      <Filter>Resources\Textures</Filter>
+    </Text>
+    <Text Include="..\NotInlined.txt">
+      <Filter>Resources\Textures</Filter>
+    </Text>
+    <Text Include="README2.txt" />
+    <Text Include="ideas.txt" />
+    <Text Include="..\Resources\OtherProgramVariables.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="..\Resources\ProgramVariables.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

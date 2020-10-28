@@ -1,0 +1,23 @@
+/*
+		int width = mapWidth;
+		int length = mapLength;*/
+		//float** heightMap2 = new float*[width];
+		/*for(int x = 0; x < width; ++x)
+		{
+			float xx = x - width * .5f;
+			heightMap2[x] = new float[length];
+			for(int z = 0; z < length; ++z)
+			{
+				float zz = z - length * .5f;
+				//this->heightMap[x][z] = 10*sinf(x * z * 3.14159265359f / 180 * .5);
+				//	this->heightMap[x][z] = sin(x*x + z*z);z 
+				//this->heightMap[x][z] = / *45 - ((abs(xx) + abs(zz))*(abs(xx) + abs(zz)))*.1 +* /65 + sin((xx + zz*zz*0)*.015f);// + sin((xx*xx + zz*zz)*.25f);
+				//this->heightMap[x][z] = pow(20, abs(x - this->width/2.0) + abs(z - this->width/2.0));
+
+				//heightMap2[x][z] = 15 - sinf(abs(xx)*.15f + abs(zz)*.05f)*15;
+				//heightMap2[x][z] = sinf(abs((width*.5f - xx) * 3.14159265359f / 180) * 15) * 10 + 10;
+				heightMap2[x][z] = 10;
+			}
+		}*/
+		
+		//heightMap2[8][8] = 18;

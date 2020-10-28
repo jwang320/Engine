@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BBCDE945-E5D6-4B16-BD99-0157F34F341F}</ProjectGuid>
+    <SccProjectName>$/Fractal Tree/FractalTree/MMO RTS Server</SccProjectName>
+    <SccAuxPath>https://vexal.visualstudio.com</SccAuxPath>
+    <SccLocalPath>.</SccLocalPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <RootNamespace>MMORTSServer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Connector C++ 8.0\include;$(ProjectDir)\..\Src;C:\Users\Matt\Source\Fractal Tree\FractalTree\FractalTree32;C:\Users\Matt\Documents\Visual Studio 2012\Projects\FractalTree\MMO RTS;C:\Users\Matt\Documents\Visual Studio 2012\Projects\FractalTree\Simulation Engine Physical;C:\Program Files\MySQL\Connector C++ 8.0\include;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Simulation Engine Physical;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\MMO RTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_NO_GRAPHICS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <DisableSpecificWarnings>4267;4458;4838;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;mysqlcppconn.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\MySQL Connector C++ 8.0\lib64\vs14;C:\Program Files\MySQL\Connector C++ 8.0\lib64\vs14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Connector C++ 8.0\include;$(ProjectDir)\..\Src;C:\Users\Matt\Source\Fractal Tree\FractalTree\FractalTree32;C:\Users\Matt\Documents\Visual Studio 2012\Projects\FractalTree\MMO RTS;C:\Users\Matt\Documents\Visual Studio 2012\Projects\FractalTree\Simulation Engine Physical;C:\Program Files\MySQL\Connector C++ 8.0\include;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Simulation Engine Physical;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\MMO RTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_NO_GRAPHICS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <DisableSpecificWarnings>4267;4458;4838;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ws2_32.lib;mysqlcppconn-static.lib;mysqlcppconn.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\MySQL\MySQL Connector C++ 8.0\lib64\vs14;C:\Program Files\MySQL\Connector C++ 8.0\lib64\vs14;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpRequest.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpServer.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpUtils.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\WebSockets.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Logger\Logger.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\ContentHost.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\Folder.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\Page.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\PageConstructor.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Page\WebNode.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Util.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\Util\sha1.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebApp.cpp" />
+    <ClCompile Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebPageApp\WebPageApp.cpp" />
+    <ClCompile Include="..\Common Source\DAO\MySqlUserDAO.cpp" />
+    <ClCompile Include="..\Common Source\DAO\NullUserDAO.cpp" />
+    <ClCompile Include="..\Common Source\DAO\MySqlEntityStateLoader.cpp" />
+    <ClCompile Include="..\Common Source\DAO\StatementWrapper.cpp" />
+    <ClCompile Include="..\Common Source\Network\Client.cpp" />
+    <ClCompile Include="..\Common Source\Network\NetworkDefinitions.cpp" />
+    <ClCompile Include="..\Common Source\Network\TCPServer.cpp" />
+    <ClCompile Include="..\Common Source\Network\NetworkBase.cpp" />
+    <ClCompile Include="..\Common Source\Network\NetworkServerBase.cpp" />
+    <ClCompile Include="..\Common Source\Network\UDPServer.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Object.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\World.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Item.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Player.cpp" />
+    <ClCompile Include="..\MMO RTS\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGamePlayer.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameResources.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameSimulation.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameWorld.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\Humanoid.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\SpaceBall.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestFloor.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestGun.cpp" />
+    <ClCompile Include="..\Src\ResourceManager.cpp" />
+    <ClCompile Include="GameServer.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpRequest.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpServer.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\HttpServer\HttpUtils.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Logger\Logger.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\ContentHost.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\Folder.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\Page.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\PageConstructor.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Page\WebNode.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Util.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\Util\sha1.hpp" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebApp.h" />
+    <ClInclude Include="..\..\WebServerVexal\WebServerVexal\src\WebApp\WebPageApp\WebPageApp.h" />
+    <ClInclude Include="..\Common Source\DAO\MySqlUserDAO.h" />
+    <ClInclude Include="..\Common Source\DAO\NullUserDAO.h" />
+    <ClInclude Include="..\Common Source\DAO\EntityStateLoader.h" />
+    <ClInclude Include="..\Common Source\DAO\MySqlEntityStateLoader.h" />
+    <ClInclude Include="..\Common Source\DAO\StatementWrapper.h" />
+    <ClInclude Include="..\Common Source\DAO\UserDAO.h" />
+    <ClInclude Include="..\Common Source\Network\Client.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkDefinitions.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkInitializationException.h" />
+    <ClInclude Include="..\Common Source\Network\ServerPacketHolder.h" />
+    <ClInclude Include="..\Common Source\Network\TCPServer.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkBase.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkServerBase.h" />
+    <ClInclude Include="..\Common Source\Network\UDPServer.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Object.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\World.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraintD.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Item.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Player.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\TestMat.h" />
+    <ClInclude Include="..\MMO RTS\pch.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGamePlayer.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameResources.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameSimulation.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameWorld.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\Humanoid.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\SpaceBall.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestFloor.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestGun.h" />
+    <ClInclude Include="..\Src\ResourceManager.h" />
+    <ClInclude Include="GameServer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\404.html" />
+    <None Include="Content\Home.html" />
+    <None Include="Content\scripts\Actor.js" />
+    <None Include="Content\scripts\Application.js" />
+    <None Include="Content\scripts\BufferIterator.js" />
+    <None Include="Content\scripts\Command.js" />
+    <None Include="Content\scripts\Constants.js" />
+    <None Include="Content\scripts\game.js" />
+    <None Include="Content\scripts\GameWorld.js" />
+    <None Include="Content\scripts\InfoBoard.js" />
+    <None Include="Content\scripts\Player.js" />
+    <None Include="Content\scripts\Renderer.js" />
+    <None Include="Content\scripts\RenderObject.js" />
+    <None Include="Content\scripts\three.js" />
+    <None Include="Content\scripts\Utils.js" />
+    <None Include="Content\scripts\Vec4.js" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

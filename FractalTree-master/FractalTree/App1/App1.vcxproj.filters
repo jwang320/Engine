@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>df8ced56-6aa3-4763-a8fa-50a5d8e5d150</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{dbdbee3b-c3b7-46b1-add4-f40ef2e21f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources">
+      <UniqueIdentifier>{e5651665-3d28-4a2c-9a05-758cd9e5e991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Textures">
+      <UniqueIdentifier>{53aa4e96-4be5-4eb0-9ec2-36f437c994ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Textures\Fonts">
+      <UniqueIdentifier>{62627d3d-8c66-4b02-8bd7-66bf2c8225b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Stuff">
+      <UniqueIdentifier>{dda50097-74dd-4f4b-9900-448819267563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote">
+      <UniqueIdentifier>{7bab5810-548c-4200-8867-9ce43b0e9237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\File Parser">
+      <UniqueIdentifier>{14f7ab0d-34f5-44d5-a56c-ab4c77744032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\Model Parser">
+      <UniqueIdentifier>{1777daf2-6a41-4e40-984b-2000c439b34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\Model Parser\3DS Max">
+      <UniqueIdentifier>{c1e193d4-656b-4e1c-b9d8-9524793fb423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\Resource Loader">
+      <UniqueIdentifier>{b928c89d-4c59-4692-8d16-985ac008b10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write">
+      <UniqueIdentifier>{230470c4-300c-475c-85b8-0d98c8e1f521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex">
+      <UniqueIdentifier>{2a0fd2fc-344e-458d-bc00-802c5728bcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex\DDSTextureLoader">
+      <UniqueIdentifier>{037992ad-47e3-459d-84b4-f453f0f44b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex\DDSTextureLoader\Headers">
+      <UniqueIdentifier>{e3e472e7-8c3c-4c88-8fde-69f2b7ce5027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I Didn%27t Write\DirectXTex\DDSTextureLoader\Source">
+      <UniqueIdentifier>{1ecb8c2b-65bc-468a-b4af-c7f23e51b681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{1ac6db3c-cedd-40e2-8d04-252d39fd95c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\Models">
+      <UniqueIdentifier>{aaf2b95b-f9fd-4c94-a303-3889ae16ae12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Core">
+      <UniqueIdentifier>{953ff9a4-2a46-46e8-84e9-0a1cf6ee148d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries I wrote\UI Renderer">
+      <UniqueIdentifier>{1dde8941-2c29-44f6-ab3c-63c2b0578b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\BlockDefinitions">
+      <UniqueIdentifier>{9fa9dc24-1c77-449d-94e3-cad3ee7a3cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Game Objects">
+      <UniqueIdentifier>{3b39e588-8b82-46e7-a4db-2e24ff133ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\UI">
+      <UniqueIdentifier>{13328eea-0c89-4377-89f7-07d18c520ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Resources\AI Profiles">
+      <UniqueIdentifier>{46288030-32dd-433a-97e8-405108ed5839}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Rendering Engine\FBXModelParser.cpp">
+      <Filter>Libraries I wrote\Model Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceManager.cpp">
+      <Filter>Libraries I wrote\Resource Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBindingGraph.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenuWindow.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResources.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ObjectRendererBinding.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSimulation.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\UIRenderer.cpp">
+      <Filter>Libraries I wrote\UI Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderInitialization.cpp">
+      <Filter>Source Code\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockUniverse.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerCharacter.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerEnemy.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerFodder.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerMesquito.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerMissile.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerPersonCharacter.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerWorld.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerBlock.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>Source Code\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformerBrain.cpp">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Rendering Engine\FBXModelParser.h">
+      <Filter>Libraries I wrote\Model Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Other Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ResourceManager.h">
+      <Filter>Libraries I wrote\Resource Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BoundingBox.h">
+      <Filter>Libraries I wrote</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBindingGraph.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuWindow.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResources.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ObjectRendererBinding.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSimulation.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UIRenderer.h">
+      <Filter>Libraries I wrote\UI Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerWorld.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockUniverse.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerCharacter.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerEnemy.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerFodder.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerMesquito.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerMissile.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerPersonCharacter.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerBlock.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformerBrain.h">
+      <Filter>Source Code\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>Source Code\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\StandardRendererResources.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\Textures\Fonts\fonttnr.fnt">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </None>
+    <None Include="App1_TemporaryKey.pfx">
+      <Filter>Other Stuff</Filter>
+    </None>
+    <None Include="Assets\Resources\Models\Sphere.ASE">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="Assets\Resources\Models\testship4.ase">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="Assets\Resources\Models\cube2.m">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="Assets\Resources\Models\sphere.m">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="Assets\Resources\Models\testship4.m">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="Assets\Resources\Models\cube2.ASE">
+      <Filter>Assets\Resources\Models</Filter>
+    </None>
+    <None Include="Assets\Resources\ResourceList.rl">
+      <Filter>Assets\Resources</Filter>
+    </None>
+    <None Include="Assets\Resources\PixelBlockResources.rl">
+      <Filter>Assets\Resources</Filter>
+    </None>
+    <None Include="Assets\Resources\BlockDefinitions\pixelrobot.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="Assets\Resources\BlockDefinitions\EvilPixelRobot.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="Assets\Resources\BlockDefinitions\EvilMesquito.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="Assets\Resources\BlockDefinitions\PixelFodder.m">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </None>
+    <None Include="Assets\Resources\AI Profiles\DefaultAIProfile.AI">
+      <Filter>Assets\Resources\AI Profiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Src\FontPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SimplePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SimpleVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\InstancedSimpleVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="DefaultVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Resources\Textures\Fonts\fonttnr_0.dds">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\Fonts\font.dds">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\Resources\BlockDefinitions\pixelrobot.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="Assets\Resources\BlockDefinitions\EvilPixelRobot.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="Assets\Resources\BlockDefinitions\EvilMesquito.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+    <Image Include="Assets\Resources\BlockDefinitions\PixelFodder.bmp">
+      <Filter>Assets\Resources\BlockDefinitions</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Resources\Textures\Fonts\fontdata.txt">
+      <Filter>Assets\Resources\Textures\Fonts</Filter>
+    </Text>
+    <Text Include="Assets\Resources\ProgramVariables.txt">
+      <Filter>Assets\Resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Other Stuff</Filter>
+    </AppxManifest>
+  </ItemGroup>
+</Project>

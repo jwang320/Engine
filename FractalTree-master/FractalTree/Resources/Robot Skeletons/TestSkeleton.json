@@ -1,0 +1,48 @@
+{
+  isGoal 0,
+  yAvailable 1,
+  xRot 3.1415,
+  END
+  /* {
+    isGoal 0
+    xAvailable 1
+    repeat 3
+    xOffset -7.5
+    END 
+    {
+      isGoal 1
+      length 50
+      xOffset 0
+      zAvailable 1
+      END
+    }
+  } */
+  {
+    isGoal 0,
+    xAvailable 1,
+    repeat 3,
+    minX 1.25,
+    length 30,
+    END {
+      isGoal 1,
+      length 50,
+      xOffset 0,
+      zAvailable 1,
+      END
+    }
+  }
+  /* {
+    isGoal 0
+    xAvailable 1
+    repeat 3
+    xOffset 7.5
+    END 
+    {
+      isGoal 1
+      length 50
+      xOffset 0
+      zAvailable 1
+      END
+    }
+  } */
+}

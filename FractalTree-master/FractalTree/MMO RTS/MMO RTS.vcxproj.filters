@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{1ed507f4-10cc-4851-be8c-834523b6f855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\util">
+      <UniqueIdentifier>{a4225f18-399d-4be2-b3ef-24d0a1374754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{5af0048d-11ea-49c1-8ae6-1e1b14fc883f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{8c4fa174-030f-41b0-9f4d-184d18d8061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{aad4bda1-e015-439c-b46b-3590f8f858ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\Fonts">
+      <UniqueIdentifier>{8f1c1f93-108a-471b-9199-4616a7a32b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Shaders">
+      <UniqueIdentifier>{c7cfb419-aa54-489a-bab8-abdd667c9272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\SpaceGame Common">
+      <UniqueIdentifier>{29b53094-e5c9-42ea-b23b-2b61580f498c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\SpaceGame Common\Core">
+      <UniqueIdentifier>{0e28065f-73e5-4968-a546-202d30897570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\SpaceGame Common\Game">
+      <UniqueIdentifier>{2364938b-ff60-4751-80e8-a0b6e9dfc83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\SpaceGame Common\Game\Objects">
+      <UniqueIdentifier>{6fd8b2bc-b272-443e-a551-847589c441dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Client Core">
+      <UniqueIdentifier>{18d52583-8c5b-434b-beff-8bfcd793d2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source">
+      <UniqueIdentifier>{85a5de92-1ec8-49fd-9bc5-8ec7b5c01cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Network">
+      <UniqueIdentifier>{7c8a1121-b29e-464f-819c-b3f1f88a9d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Procedural Generation">
+      <UniqueIdentifier>{1d5f3115-27b4-4a6e-9704-a2edfb2e09e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Procedural Generation\Noise">
+      <UniqueIdentifier>{d841d73b-dafd-4462-848e-e64bdd82137e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Mesh">
+      <UniqueIdentifier>{c57e4a94-69d5-4a17-830e-cb0cd5de01bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\DAO">
+      <UniqueIdentifier>{56f09cee-fa21-44b4-8bb8-68b3914ca702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Simulation Engine">
+      <UniqueIdentifier>{f8c749c3-83e3-43c7-b3da-de7c8d1c21c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Simulation Engine\Physical Simulation">
+      <UniqueIdentifier>{ee4a7df9-dbe2-4240-8e82-ec556bb56297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Brain">
+      <UniqueIdentifier>{386d81b3-8b3f-4133-8762-54578ec32240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects">
+      <UniqueIdentifier>{1ad4b819-970b-40e5-b118-cf07eaad7641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces">
+      <UniqueIdentifier>{3cbdad4d-1fb2-439e-b8a9-77b5afd26276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Simulation Engine\Base Simulation">
+      <UniqueIdentifier>{9c767950-7a42-4e58-8646-7fa3b5a56ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\lp_solve">
+      <UniqueIdentifier>{efa48780-0de7-47c0-a6cf-c30628a6d987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\UI">
+      <UniqueIdentifier>{52e1263f-2b6d-4686-98b5-a04ca4cb9c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\UI\UI Element Types">
+      <UniqueIdentifier>{c8c4dee2-f140-4ded-a943-5c7f916a108b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Rendering Engine">
+      <UniqueIdentifier>{680e5b93-5516-424d-a95a-532af6b18428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base">
+      <UniqueIdentifier>{9f6cc319-7986-4058-b2e4-cd490feb86b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Rendering Engine\Rendering Engine Sample">
+      <UniqueIdentifier>{a433687b-4632-42e9-919d-77a1890514c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard">
+      <UniqueIdentifier>{7f3bf402-d027-4396-8de6-42063d045580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints">
+      <UniqueIdentifier>{89d422f6-dfef-4019-8900-f9daeb0eb13c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectRendererBinding.cpp">
+      <Filter>Source Code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\NetworkDefinitions.cpp">
+      <Filter>Source Code\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\UDPClient.cpp">
+      <Filter>Source Code\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\PerlinNoiseNode.cpp">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\ProceduralGeneration.cpp">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\SimplexNoiseNode.cpp">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\DirectComputeNode.cpp">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\GenerationNode.cpp">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\NoiseNode.cpp">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\PerlinNoise.cpp">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Mesh\HeightMapMesh.cpp">
+      <Filter>Source Code\Common Engine Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Mesh\Mesh.cpp">
+      <Filter>Source Code\Common Engine Source\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Player.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\colamd\colamd.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\commonlib.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\ini.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_crash.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_Hash.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_lib.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\lp_LUSOL.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_matrix.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_MDO.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_mipbb.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_MPS.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_params.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_presolve.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_price.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_pricePSE.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_report.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_scale.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_simplex.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_SOS.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_utils.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_wlp.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\lusol.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\mmio.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\myblas.c">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\World.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Object.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIElement.cpp">
+      <Filter>Source Code\Common Engine Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\Window.cpp">
+      <Filter>Source Code\Common Engine Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIButton.cpp">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIContainer.cpp">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIEmptyElement.cpp">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UILayoutElement.cpp">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UITextOutputBox.cpp">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\SimpleUI\UIToggleButton.cpp">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ResourceManager.cpp">
+      <Filter>Source Code\Common Engine Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\BaseRendererResources.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DBase.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DRenderer.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\ModelBufferData.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Sample\SampleRenderer.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Direct3DModelInitialization.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelNode.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Particle.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleEntity.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleNode.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleSystem.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneEntity.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneGraph.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneNode.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardCubeRenderer.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererInitialization.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererResources.cpp">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\UIRenderer.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceGameApplication.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceGameBindingGraph.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceGameRenderer.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceGameUDPClient.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceGameWindow.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceGameShaderInitialization.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameResources.cpp">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameSimulation.cpp">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\Humanoid.cpp">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGamePlayer.cpp">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestFloor.cpp">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameWorld.cpp">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.cpp">
+      <Filter>Source Code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.cpp">
+      <Filter>Source Code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Util\File Parser\ASCII\ParserHelper.cpp">
+      <Filter>Source Code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\BoundingBox.cpp">
+      <Filter>Source Code\util</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceGameApplicationIO.cpp">
+      <Filter>Source Code\Client Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\SpaceBall.cpp">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Network\NetworkBase.cpp">
+      <Filter>Source Code\Common Engine Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Item.cpp">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestGun.cpp">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectRendererBinding.h">
+      <Filter>Source Code\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkDefinitions.h">
+      <Filter>Source Code\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkInitializationException.h">
+      <Filter>Source Code\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\UDPClient.h">
+      <Filter>Source Code\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\PerlinNoise.h">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\PerlinNoiseNode.h">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\ProceduralGeneration.h">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\SImplexNoiseNode.h">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\DirectComputeNode.h">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\GenerationNode.h">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\NoiseNode.h">
+      <Filter>Source Code\Common Engine Source\Procedural Generation\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Mesh\HeightMapMesh.h">
+      <Filter>Source Code\Common Engine Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Mesh\Mesh.h">
+      <Filter>Source Code\Common Engine Source\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Player.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\colamd\colamd.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\commonlib.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\declare.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\ini.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\lp_BFP.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_bit.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_crash.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_explicit.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_fortify.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_Hash.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_lib.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\lp_LUSOL.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_matrix.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_MDO.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_mipbb.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_MPS.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_presolve.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_price.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_pricePSE.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_report.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_scale.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_simplex.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_SOS.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_types.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_utils.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_wlp.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpkit.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpsolve.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\lusol.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\mmio.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\mmio.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\myblas.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\myblas.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\ufortify.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpsolve55\resource.h">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\World.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Object.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Base Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\Window.h">
+      <Filter>Source Code\Common Engine Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIElement.h">
+      <Filter>Source Code\Common Engine Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIButton.h">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIContainer.h">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIEmptyElement.h">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UILayoutElement.h">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UITextOutputBox.h">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\SimpleUI\UIToggleButton.h">
+      <Filter>Source Code\Common Engine Source\UI\UI Element Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ResourceManager.h">
+      <Filter>Source Code\Common Engine Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\BaseRendererResources.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DBase.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DRenderer.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\ModelBufferData.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Sample\SampleRenderer.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelNode.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelVertexTypes.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Particle.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleEntity.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleNode.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleSystem.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneEntity.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneGraph.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneNode.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardCubeRenderer.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererResources.h">
+      <Filter>Source Code\Common Engine Source\Rendering Engine\Rendering Engine Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UIRenderer.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceGameApplication.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceGameBindingGraph.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceGameRenderer.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceGameUDPClient.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceGameWindow.h">
+      <Filter>Source Code\Client Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameResources.h">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameSimulation.h">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameWorld.h">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\Humanoid.h">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGamePlayer.h">
+      <Filter>Source Code\SpaceGame Common\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestFloor.h">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.h">
+      <Filter>Source Code\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.h">
+      <Filter>Source Code\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Util\File Parser\ASCII\ParseHelper.h">
+      <Filter>Source Code\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraint.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraintD.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\SpaceBall.h">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Network\NetworkBase.h">
+      <Filter>Source Code\Common Engine Source\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Item.h">
+      <Filter>Source Code\Common Engine Source\Simulation Engine\Physical Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestGun.h">
+      <Filter>Source Code\SpaceGame Common\Game\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResourceList.rl">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\Models\cube2.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\cube2.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\pyramid2.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\Pyramid2.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\Sphere.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\sphere.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\testship4.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\testship4.ase">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Textures\Fonts\fonttnr.fnt">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </None>
+    <None Include="Resources\Models\castle.ASE">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\castle.m">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="..\Common Source\lp_solve_5.5\lp_solve.def">
+      <Filter>Source Code\Common Engine Source\lp_solve</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\ProgramVariables.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="Resources\Textures\Fonts\fontdata.txt">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Fonts\fonttnr_0.dds">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </Image>
+    <Image Include="Resources\Textures\Fonts\font.dds">
+      <Filter>Resources\Textures\Fonts</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\RTSTerrainVertexShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\RTSTerrainPixelShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\WorldFontVertexShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\FontPixelShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SimplePixelShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SimpleVertexShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\HDRPixelShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\HDRVertexShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\BloomCombineShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\BlurShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\FoliagePixelShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\LuminancePixelShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIVertexShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIPixelShader.hlsl">
+      <Filter>Source Code\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

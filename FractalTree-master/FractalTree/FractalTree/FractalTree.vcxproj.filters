@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Image Include="Assets\Logo.png">
+      <Filter>FractalTree\Zstuff\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>FractalTree\Zstuff\Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>FractalTree\Zstuff\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>FractalTree\Zstuff\Assets</Filter>
+    </Image>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{c7b2acca-a6ab-4b88-bc12-7669b57d31bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Models">
+      <UniqueIdentifier>{fee7dc10-343b-439f-844a-71bc5b6a1aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine">
+      <UniqueIdentifier>{122c793d-0c77-4936-abc8-86027c054e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine">
+      <UniqueIdentifier>{93d5c0c0-ad1d-4bca-89d7-7fcd5635dda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{4885144d-ecc1-45dd-a6c5-4d59adf83231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\LSystem">
+      <UniqueIdentifier>{c6316131-2436-4391-94fc-1ab46b3b14c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Utility">
+      <UniqueIdentifier>{b0e2d2e0-098a-4bee-853a-c1a851e7d14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\UI">
+      <UniqueIdentifier>{8884abe6-117e-4441-b19b-983bd2e40971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Mesh">
+      <UniqueIdentifier>{71be6ef8-6897-44e7-9ea2-00e530c41e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\File Parser">
+      <UniqueIdentifier>{2f4cd54f-0c43-420e-bd5c-2e1ee8909b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FractalTree">
+      <UniqueIdentifier>{45ca9f39-c699-421c-b3a5-f824521429c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FractalTree\Headers">
+      <UniqueIdentifier>{ed3f7f63-cf97-4dc2-963d-8ff3e2a931cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FractalTree\Source">
+      <UniqueIdentifier>{82cec34c-f408-42b6-bc27-e96dbdfa2987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FractalTree\Zstuff">
+      <UniqueIdentifier>{dd3fd0dd-8cab-4b27-86f5-1e572d7781f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FractalTree\Zstuff\Assets">
+      <UniqueIdentifier>5e2725ca-24b7-4baa-82b1-f5b16d869740</UniqueIdentifier>
+    </Filter>
+    <Image Include="Assets\Resources\Textures\Fonts\font.dds">
+      <Filter>FractalTree\Zstuff\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\1024px-Seamless_dirt_texture_by_hhh316.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\bricks.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\bump01.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\dirt.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\dirt_2048.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\dirt01.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\dirt2.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\displacement.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\explosion-30mnx.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\floor slab.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\grass_1_2048x2048.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\grass1.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\grass2.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\reptilianskin.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\rock texture.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\rock.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\rock_gray_viens_2048.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\rock2_bump.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\sand.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\sand2.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\Seamless beach sand 2 texture.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\seamless_tiled_grass_texture_by_lendrick.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\SnowIceTexture0001.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\SnowIceTexture0002.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\SnowIceTexture0003.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\SnowIceTexture0004.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\SnowIceTexture0006.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\SnowIceTexture0007.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\SnowIceTexture0008.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\soil.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\stone_1_2048x2048.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\Stone_Dark.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\Stone_DarkBrown.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\Stone_DarkGray.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\Stone_LightBrown.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\Stone_LightGrey.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\stone01.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+    <Image Include="Assets\Resources\Textures\TileableIceLarge.dds">
+      <Filter>FractalTree\Zstuff\Assets\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\floor4.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\floor5.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\floor6.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\floor7.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\newmissiletest.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\newmissiletest2.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\pyramid2.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\Sphere.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\teapot.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\teapot2.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\cube2.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\floor.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Models\floor2.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="FractalTree_TemporaryKey.pfx">
+      <Filter>FractalTree\Zstuff</Filter>
+    </None>
+    <None Include="Models\testship2coarse.ASE">
+      <Filter>Shaders\Models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Window.h">
+      <Filter>Libraries\UI\Windowing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIElement.h">
+      <Filter>Libraries\UI\Abstract Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIContainer.h">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIEmptyElement.h">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIButton.h">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Moveable.h">
+      <Filter>Simulation Engine\World\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Geometric.h">
+      <Filter>Simulation Engine\World\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Simulation.h">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Actor.h">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ActorLSystem.h">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Scene Graph\SceneGraph.h">
+      <Filter>Rendering Engine\Scene Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\DirectXHelper.h">
+      <Filter>Libraries\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\BasicTimer.h">
+      <Filter>Libraries\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ObjectRendererBinding.h">
+      <Filter>Rendering Engine\Scene Graph\Object Renderer Binding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Renderer\Standard Renderer\ModelVertexTypes.h">
+      <Filter>Rendering Engine\Renderer\Standard Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Scene Graph\ParticleEntity.h">
+      <Filter>Rendering Engine\Scene Graph\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Scene Graph\SceneEntity.h">
+      <Filter>Rendering Engine\Scene Graph\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Scene Graph\SceneNode.h">
+      <Filter>Rendering Engine\Scene Graph\Scene Node</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Scene Graph\Scene Node\Interfaces\ModelNode.h">
+      <Filter>Rendering Engine\Scene Graph\Scene Node\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Scene Graph\Scene Node\Interfaces\AnimationNode.h">
+      <Filter>Rendering Engine\Scene Graph\Scene Node\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Scene Graph\Scene Node\Interfaces\ParticleNode.h">
+      <Filter>Rendering Engine\Scene Graph\Scene Node\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Commandable.h">
+      <Filter>Simulation Engine\World\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\PhysicalWorldSimulation.h">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WorldSimulation.h">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Player.h">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Object.h">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PhysicalWorld.h">
+      <Filter>Simulation Engine\World\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\World.h">
+      <Filter>Simulation Engine\World\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ActorRendererBindingGraph.h">
+      <Filter>Rendering Engine\Scene Graph\Object Renderer Binding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\LSystem.h">
+      <Filter>Libraries\LSystem\System Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ConnectorSegment.h">
+      <Filter>Libraries\LSystem\Segment Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\SpatialLSystemSegment.h">
+      <Filter>Libraries\LSystem\Segment Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TreeTrunkSegment.h">
+      <Filter>Libraries\LSystem\Segment Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Direct3DApp1.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FractalTreeApplication.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\FractalTreeResources.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FractalTreeSimulation.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Humanoid.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TestFloor.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\TestShip.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TreeActor.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Application.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\pch.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\DirectXTex\DDSTextureLoader\DDSTextureLoader.h">
+      <Filter>Libraries\DirectXTex\DDSTextureLoader\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Particle System\Particle.h">
+      <Filter>Rendering Engine\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Particle System\ParticleSystem.h">
+      <Filter>Rendering Engine\Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Renderer\Renderer Base\ModelBufferData.h">
+      <Filter>Rendering Engine\Renderer\Renderer Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Animation\Animation.h">
+      <Filter>Rendering Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Animation\AnimationState.h">
+      <Filter>Rendering Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Animation\AnimationTransform.h">
+      <Filter>Rendering Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Geometry.h">
+      <Filter>Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SystemParameters.h">
+      <Filter>Libraries\LSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Libraries\File Parser\ASCII\ParseHelper.h">
+      <Filter>Libraries\File Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FractalTreeWindow.h">
+      <Filter>FractalTree\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Renderer\Renderer Base\Direct3DRenderer.h">
+      <Filter>Rendering Engine\Renderer\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UIRenderer.h">
+      <Filter>Rendering Engine\Renderer\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIToggleButton.h">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HeightMapMesh.h">
+      <Filter>Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Mesh.h">
+      <Filter>Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Terrain.h">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PerlinNoise.h">
+      <Filter>Libraries\Procedural Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Effect.h">
+      <Filter>Simulation Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ForceEffect.h">
+      <Filter>Simulation Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SpatialEffect.h">
+      <Filter>Simulation Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TargetEffect.h">
+      <Filter>Simulation Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainCell.h">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RendererResources.h">
+      <Filter>Rendering Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\Direct3DBase.h">
+      <Filter>Rendering Engine\Renderer\Renderer Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\StandardCubeRenderer.h">
+      <Filter>Rendering Engine\Renderer\Standard Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\FractalTreeRenderer.h">
+      <Filter>Rendering Engine\Renderer\Standard Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Rendering Engine\ASCIIModelParser.h">
+      <Filter>Rendering Engine\Model Parser\3DS Max</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\BasicReaderWriter.h">
+      <Filter>Libraries\File Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\UITextOutputBox.h">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BoundingBox.h">
+      <Filter>Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ConvexHull.h">
+      <Filter>Libraries\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\TestMeshGuy.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Item.h">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\ItemSlot.h">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\TestMissileLauncher.h">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Weapon.h">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Projectile.h">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Ship.h">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainGrowthSimulator.h">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainGrowthElement.h">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainGrowthSimulatorNode.h">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FoliageActor.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Generator.h">
+      <Filter>Libraries\Procedural Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\BadGuy.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DecentMissile.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DecentMissileLauncher.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\GoodGuy.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IneffectiveMissile.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IneffectiveMissileLauncher.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Simulation Engine\Brain.h">
+      <Filter>Simulation Engine\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TheSun.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UILayoutElement.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIImage.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UIMapEditor.h">
+      <Filter>FractalTree\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Direct3DApp1.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FractalTreeApplication.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\FractalTreeResources.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FractalTreeSimulation.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Humanoid.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TestFloor.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\TestShip.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TreeActor.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Application.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\pch.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FractalTreeWindow.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\DirectXTex\DDSTextureLoader\DDSTextureLoader.cpp">
+      <Filter>Libraries\DirectXTex\DDSTextureLoader\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Particle System\Particle.cpp">
+      <Filter>Rendering Engine\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Particle System\ParticleSystem.cpp">
+      <Filter>Rendering Engine\Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Renderer\Renderer Base\ModelBufferData.cpp">
+      <Filter>Rendering Engine\Renderer\Renderer Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Scene Graph\ParticleEntity.cpp">
+      <Filter>Rendering Engine\Scene Graph\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Scene Graph\SceneEntity.cpp">
+      <Filter>Rendering Engine\Scene Graph\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ObjectRendererBinding.cpp">
+      <Filter>Rendering Engine\Scene Graph\Object Renderer Binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ActorRendererBindingGraph.cpp">
+      <Filter>Rendering Engine\Scene Graph\Object Renderer Binding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Scene Graph\SceneNode.cpp">
+      <Filter>Rendering Engine\Scene Graph\Scene Node</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Scene Graph\Scene Node\Interfaces\AnimationNode.cpp">
+      <Filter>Rendering Engine\Scene Graph\Scene Node\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Scene Graph\Scene Node\Interfaces\ModelNode.cpp">
+      <Filter>Rendering Engine\Scene Graph\Scene Node\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Scene Graph\Scene Node\Interfaces\ParticleNode.cpp">
+      <Filter>Rendering Engine\Scene Graph\Scene Node\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Scene Graph\SceneGraph.cpp">
+      <Filter>Rendering Engine\Scene Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Animation\Animation.cpp">
+      <Filter>Rendering Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Animation\AnimationState.cpp">
+      <Filter>Rendering Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Animation\AnimationTransform.cpp">
+      <Filter>Rendering Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\PhysicalWorldSimulation.cpp">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Player.cpp">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Simulation.cpp">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WorldSimulation.cpp">
+      <Filter>Simulation Engine\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Actor.cpp">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ActorLSystem.cpp">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Object.cpp">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Commandable.cpp">
+      <Filter>Simulation Engine\World\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Geometric.cpp">
+      <Filter>Simulation Engine\World\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Moveable.cpp">
+      <Filter>Simulation Engine\World\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PhysicalWorld.cpp">
+      <Filter>Simulation Engine\World\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\World.cpp">
+      <Filter>Simulation Engine\World\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Window.cpp">
+      <Filter>Libraries\UI\Windowing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIEmptyElement.cpp">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIButton.cpp">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIContainer.cpp">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIElement.cpp">
+      <Filter>Libraries\UI\Abstract Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Geometry.cpp">
+      <Filter>Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ConnectorSegment.cpp">
+      <Filter>Libraries\LSystem\Segment Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\SpatialLSystemSegment.cpp">
+      <Filter>Libraries\LSystem\Segment Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TestTrunkSegment.cpp">
+      <Filter>Libraries\LSystem\Segment Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TreeTrunkSegment.cpp">
+      <Filter>Libraries\LSystem\Segment Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\LSystem.cpp">
+      <Filter>Libraries\LSystem\System Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SystemParameters.cpp">
+      <Filter>Libraries\LSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Libraries\File Parser\ASCII\ParserHelper.cpp">
+      <Filter>Libraries\File Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Renderer\Renderer Base\Direct3DRenderer.cpp">
+      <Filter>Rendering Engine\Renderer\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\UIRenderer.cpp">
+      <Filter>Rendering Engine\Renderer\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIToggleButton.cpp">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HeightMapMesh.cpp">
+      <Filter>Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Mesh.cpp">
+      <Filter>Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Terrain.cpp">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PerlinNoise.cpp">
+      <Filter>Libraries\Procedural Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Effect.cpp">
+      <Filter>Simulation Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ForceEffect.cpp">
+      <Filter>Simulation Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SpatialEffect.cpp">
+      <Filter>Simulation Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TargetEffect.cpp">
+      <Filter>Simulation Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainCell.cpp">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RendererResources.cpp">
+      <Filter>Rendering Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Direct3DModelInitialization.cpp">
+      <Filter>Rendering Engine\Renderer\Standard Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\Direct3DBase.cpp">
+      <Filter>Rendering Engine\Renderer\Renderer Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\StandardCubeRenderer.cpp">
+      <Filter>Rendering Engine\Renderer\Standard Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\FractalTreeRenderer.cpp">
+      <Filter>Rendering Engine\Renderer\Standard Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\ASCIIModelParser.cpp">
+      <Filter>Rendering Engine\Model Parser\3DS Max</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\BasicReaderWriter.cpp">
+      <Filter>Libraries\File Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ConnectToServer.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\FractalTreeModelInitialization.cpp">
+      <Filter>FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\FractalTreeShaderInitialization.cpp">
+      <Filter>FractalTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\UITextOutputBox.cpp">
+      <Filter>Libraries\UI\Concrete Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BoundingBox.cpp">
+      <Filter>Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ConvexHull.cpp">
+      <Filter>Libraries\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\TestMeshGuy.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Item.cpp">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\ItemSlot.cpp">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\TestMissileLauncher.cpp">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Weapon.cpp">
+      <Filter>Simulation Engine\World\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Projectile.cpp">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Ship.cpp">
+      <Filter>Simulation Engine\World\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainGrowthSimulator.cpp">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainGrowthElement.cpp">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainGrowthSimulatorNode.cpp">
+      <Filter>Simulation Engine\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FoliageActor.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Generator.cpp">
+      <Filter>Libraries\Procedural Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\BadGuy.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DecentMissile.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DecentMissileLauncher.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\GoodGuy.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IneffectiveMissile.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IneffectiveMissileLauncher.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Simulation Engine\Brain.cpp">
+      <Filter>Simulation Engine\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TheSun.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UILayoutElement.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIImage.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UIMapEditor.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Rendering Engine\StandardRendererInitialization.cpp">
+      <Filter>FractalTree\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Src\SimpleVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\SimplePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\UIPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\SimpleMountainPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\FontPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\TerrainVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\TreePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\ParticlePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\ParticleVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\InstancedFoliageVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Src\FoliagePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\ShadowPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\src\ShadowVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FractalTree.rc">
+      <Filter>FractalTree\Zstuff</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>FractalTree\Zstuff</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Libraries\DirectXTex">
+      <UniqueIdentifier>{6b6ddc68-2464-4a7a-9ccc-1f2cdda0cb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DirectXTex\DDSTextureLoader">
+      <UniqueIdentifier>{d9d8a030-7dcf-46e1-b0a2-c982776259e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DirectXTex\DDSTextureLoader\Headers">
+      <UniqueIdentifier>{c3fa5b89-3def-4272-b797-7023934804c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DirectXTex\DDSTextureLoader\Source">
+      <UniqueIdentifier>{bc172b0a-27f8-453f-85ca-ab2b2ebcf16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Animation">
+      <UniqueIdentifier>{fdeb9e49-096f-463e-abe5-f3d8998091d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Particle System">
+      <UniqueIdentifier>{c698726a-36c4-4d7e-af8d-2aaaa7b4f300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Renderer">
+      <UniqueIdentifier>{dc86cbe2-8229-481b-9352-166ff1fab3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Renderer\Renderer Base">
+      <UniqueIdentifier>{b5206ccb-3106-4b3c-a5b6-8f712dbe6358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Renderer\Standard Renderer">
+      <UniqueIdentifier>{e68b6bb8-717c-4e5c-8835-6d166877c243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Scene Graph">
+      <UniqueIdentifier>{de8aba0b-0f3b-4f09-b0b1-ceb093a64261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Scene Graph\Object Renderer Binding">
+      <UniqueIdentifier>{041266d4-440c-4f3c-aae1-32067818bb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Scene Graph\Entities">
+      <UniqueIdentifier>{b41cd4b2-9bee-475d-ae6b-233ce1b4dddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Scene Graph\Scene Node">
+      <UniqueIdentifier>{150d83a7-0234-403a-a385-8539d39c4fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Scene Graph\Scene Node\Interfaces">
+      <UniqueIdentifier>{cdcc013a-2430-4c57-86a9-9f333f1a29a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\Simulation">
+      <UniqueIdentifier>{3e9fbd05-e4af-4b79-8479-7740b732473f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\World">
+      <UniqueIdentifier>{b8702ce7-0aaf-4863-818f-ea27fc355952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\World\Interfaces">
+      <UniqueIdentifier>{c55c73b0-27e2-4b23-902f-0fcf4e4172ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\World\Objects">
+      <UniqueIdentifier>{4b08323d-d143-4f1f-b0f0-a4e70ef56612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\World\Worlds">
+      <UniqueIdentifier>{99b7354d-9049-450f-85f9-6d26fb40c33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\UI\Abstract Types">
+      <UniqueIdentifier>{1cf55a39-1c46-4a59-995e-9ca522ebf05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\UI\Concrete Types">
+      <UniqueIdentifier>{700547f4-f9ac-4808-9373-44712c56e72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\UI\Windowing">
+      <UniqueIdentifier>{0f37dbec-2f82-4c66-872d-7f0451503d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\LSystem\Segment Types">
+      <UniqueIdentifier>{4af437af-1f5d-483e-9215-89c739fd3a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\LSystem\System Types">
+      <UniqueIdentifier>{9ea5e265-1892-4d05-887c-05817fb664c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Renderer\Renderers">
+      <UniqueIdentifier>{e7ec3249-0488-43f3-8a22-5bade79ed95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\Terrain">
+      <UniqueIdentifier>{11e9bf22-f38a-4682-b058-c0b4ee77a5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Procedural Generation">
+      <UniqueIdentifier>{698f83de-6293-41d3-9a4d-f6adc622fabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Model Parser">
+      <UniqueIdentifier>{116f40ec-c70b-42e6-9b60-0bee0f0a49da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Engine\Model Parser\3DS Max">
+      <UniqueIdentifier>{c62e62b3-3e0e-499a-a96f-a12837f67589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\World\Items">
+      <UniqueIdentifier>{f6efd3ff-9ccc-411d-ba57-7764a03f909e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FractalTree\Zstuff\Assets\Textures">
+      <UniqueIdentifier>{6b6c6738-80fb-4834-92a5-68194def7828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation Engine\Brain">
+      <UniqueIdentifier>{64f300e2-60db-4a44-8079-bb394aaf4c9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Resources\Textures\Fonts\fontdata.txt">
+      <Filter>FractalTree\Zstuff\Assets</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

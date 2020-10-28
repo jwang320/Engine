@@ -1,0 +1,2 @@
+nearZDistance float 10.01
+farZDistance float 200000

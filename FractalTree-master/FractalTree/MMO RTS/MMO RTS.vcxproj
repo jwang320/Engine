@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84B5EFB2-56CE-4C4C-B6DC-1A12B72DD23F}</ProjectGuid>
+    <SccProjectName>$/Fractal Tree/FractalTree/MMO RTS</SccProjectName>
+    <SccAuxPath>https://vexal.visualstudio.com</SccAuxPath>
+    <SccLocalPath>.</SccLocalPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MMORTS</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_RTS_GAME;_WIN32_APPLICATION;_WIN32;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\porkc\source\repos\Vexal\FractalTree\FractalTree\Src;C:\Users\Matt\Source\Fractal Tree\FractalTree\Src;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\MMO RTS;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Simulation Engine Physical;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\SimpleUI;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Rendering Engine Standard;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Rendering Engine Sample;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>DXGI.lib;D3D11.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_RTS_GAME;_WIN32_APPLICATION;_WIN32;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\porkc\source\repos\Vexal\FractalTree\FractalTree\Src;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\MMO RTS;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Simulation Engine Physical;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\SimpleUI;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Rendering Engine Standard;C:\Users\Vexal\Source\Workspaces\Fractal Tree\FractalTree\Rendering Engine Sample;C:\Users\Matt\Source\Fractal Tree\FractalTree\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>DXGI.lib;D3D11.lib;%(AdditionalDependencies);dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\lp_LUSOL.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\lusol.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\colamd\colamd.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\ini.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_crash.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_Hash.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_lib.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_matrix.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_MDO.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_mipbb.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_MPS.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_params.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_presolve.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_price.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_pricePSE.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_report.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_scale.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_simplex.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_SOS.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_utils.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\lp_wlp.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\commonlib.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\mmio.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\lp_solve_5.5\shared\myblas.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Common Source\Mesh\HeightMapMesh.cpp" />
+    <ClCompile Include="..\Common Source\Mesh\Mesh.cpp" />
+    <ClCompile Include="..\Common Source\Network\NetworkDefinitions.cpp" />
+    <ClCompile Include="..\Common Source\Network\UDPClient.cpp" />
+    <ClCompile Include="..\Common Source\Network\NetworkBase.cpp" />
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\DirectComputeNode.cpp" />
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\GenerationNode.cpp" />
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\NoiseNode.cpp" />
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\PerlinNoise.cpp" />
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\PerlinNoiseNode.cpp" />
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\ProceduralGeneration.cpp" />
+    <ClCompile Include="..\Common Source\Procedural Generation\Noise\SimplexNoiseNode.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\BaseRendererResources.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DBase.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DRenderer.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Base\ModelBufferData.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Sample\SampleRenderer.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Direct3DModelInitialization.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelNode.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Particle.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleEntity.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleNode.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleSystem.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneEntity.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneGraph.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneNode.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardCubeRenderer.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererInitialization.cpp" />
+    <ClCompile Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererResources.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\UIButton.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\UIContainer.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\UIElement.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\UIEmptyElement.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\UILayoutElement.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\UITextOutputBox.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\UIToggleButton.cpp" />
+    <ClCompile Include="..\Common Source\SimpleUI\Window.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Object.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Base Simulation\World.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Item.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.cpp" />
+    <ClCompile Include="..\Common Source\Simulation Engine\Physical Simulation\Player.cpp" />
+    <ClCompile Include="..\Common Source\Util\File Parser\ASCII\ParserHelper.cpp" />
+    <ClCompile Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.cpp" />
+    <ClCompile Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGamePlayer.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameResources.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameSimulation.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Core\SpaceGameWorld.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\Humanoid.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\SpaceBall.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestFloor.cpp" />
+    <ClCompile Include="..\SpaceGame Common\Game\Objects\TestGun.cpp" />
+    <ClCompile Include="..\Src\BoundingBox.cpp" />
+    <ClCompile Include="..\Src\ResourceManager.cpp" />
+    <ClCompile Include="..\Src\UIRenderer.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ObjectRendererBinding.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="SpaceGameApplication.cpp" />
+    <ClCompile Include="SpaceGameApplicationIO.cpp" />
+    <ClCompile Include="SpaceGameBindingGraph.cpp" />
+    <ClCompile Include="SpaceGameRenderer.cpp" />
+    <ClCompile Include="SpaceGameShaderInitialization.cpp" />
+    <ClCompile Include="SpaceGameUDPClient.cpp" />
+    <ClCompile Include="SpaceGameWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\lp_LUSOL.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\lusol.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\mmio.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\bfp_LUSOL\LUSOL\myblas.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\bfp\lp_BFP.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\colamd\colamd.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\declare.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\ini.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpkit.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpsolve.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lpsolve55\resource.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_bit.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_crash.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_explicit.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_fortify.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_Hash.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_lib.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_matrix.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_MDO.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_mipbb.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_MPS.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_presolve.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_price.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_pricePSE.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_report.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_scale.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_simplex.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_SOS.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_types.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_utils.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\lp_wlp.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\commonlib.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\mmio.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\shared\myblas.h" />
+    <ClInclude Include="..\Common Source\lp_solve_5.5\ufortify.h" />
+    <ClInclude Include="..\Common Source\Mesh\HeightMapMesh.h" />
+    <ClInclude Include="..\Common Source\Mesh\Mesh.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkDefinitions.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkInitializationException.h" />
+    <ClInclude Include="..\Common Source\Network\UDPClient.h" />
+    <ClInclude Include="..\Common Source\Network\NetworkBase.h" />
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\DirectComputeNode.h" />
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\GenerationNode.h" />
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\NoiseNode.h" />
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\PerlinNoise.h" />
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\PerlinNoiseNode.h" />
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\ProceduralGeneration.h" />
+    <ClInclude Include="..\Common Source\Procedural Generation\Noise\SImplexNoiseNode.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\BaseRendererResources.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DBase.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\Direct3DRenderer.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Base\ModelBufferData.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Sample\SampleRenderer.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelNode.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ModelVertexTypes.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\Particle.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleEntity.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleNode.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\ParticleSystem.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneEntity.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneGraph.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\SceneNode.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardCubeRenderer.h" />
+    <ClInclude Include="..\Common Source\Rendering Engine\Rendering Engine Standard\StandardRendererResources.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\UIButton.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\UIContainer.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\UIElement.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\UIEmptyElement.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\UILayoutElement.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\UITextOutputBox.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\UIToggleButton.h" />
+    <ClInclude Include="..\Common Source\SimpleUI\Window.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Object.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\Simulation.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\SimulationEvent.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Base Simulation\World.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Actor.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AngleConstraintD.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\AxisConstraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Brain\Brain.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Constraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\ConstraintD.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\Effect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\ForceEffect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\SpatialEffect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Effects\TargetEffect.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraint.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\IConstraintD.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Commandable.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Geometric.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Interfaces\Moveable.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Item.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorld.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\PhysicalWorldSimulation.h" />
+    <ClInclude Include="..\Common Source\Simulation Engine\Physical Simulation\Player.h" />
+    <ClInclude Include="..\Common Source\Util\File Parser\ASCII\ParseHelper.h" />
+    <ClInclude Include="..\Common Source\Util\Model Parser\3DS Max\ASCIIModelParser.h" />
+    <ClInclude Include="..\Common Source\Util\Texture Loader\DDSTextureLoader.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGamePlayer.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameResources.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameSimulation.h" />
+    <ClInclude Include="..\SpaceGame Common\Core\SpaceGameWorld.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\Humanoid.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\SpaceBall.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestFloor.h" />
+    <ClInclude Include="..\SpaceGame Common\Game\Objects\TestGun.h" />
+    <ClInclude Include="..\Src\ResourceManager.h" />
+    <ClInclude Include="..\Src\UIRenderer.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="ObjectRendererBinding.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="SpaceGameApplication.h" />
+    <ClInclude Include="SpaceGameBindingGraph.h" />
+    <ClInclude Include="SpaceGameRenderer.h" />
+    <ClInclude Include="SpaceGameUDPClient.h" />
+    <ClInclude Include="SpaceGameWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common Source\lp_solve_5.5\lp_solve.def" />
+    <None Include="Resources\Models\castle.ASE" />
+    <None Include="Resources\Models\castle.m" />
+    <None Include="Resources\Models\cube2.ASE" />
+    <None Include="Resources\Models\cube2.m" />
+    <None Include="Resources\Models\pyramid2.ASE" />
+    <None Include="Resources\Models\Pyramid2.m" />
+    <None Include="Resources\Models\Sphere.ASE" />
+    <None Include="Resources\Models\sphere.m" />
+    <None Include="Resources\Models\testship4.ase" />
+    <None Include="Resources\Models\testship4.m" />
+    <None Include="Resources\ResourceList.rl" />
+    <None Include="Resources\Textures\Fonts\fonttnr.fnt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\ProgramVariables.txt" />
+    <Text Include="Resources\Textures\Fonts\fontdata.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Fonts\font.dds" />
+    <Image Include="Resources\Textures\Fonts\fonttnr_0.dds" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\src\BloomCombineShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\src\BlurShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\Src\FoliagePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\src\HDRPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\src\HDRVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\src\LuminancePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\src\UIPixelShader.hlsl">
+      <FileType>Document</FileType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="..\src\UIVertexShader.hlsl">
+      <FileType>Document</FileType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)../Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Shaders\FontPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Shaders\RTSTerrainPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Shaders\RTSTerrainVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Shaders\SimplePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Shaders\SimpleVertexShader.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shaders\WorldFontVertexShader.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)Shaders/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

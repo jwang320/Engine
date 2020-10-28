@@ -1,0 +1,67 @@
+{
+	name func23
+	frequency .000005
+	amplitude 85500
+	contributeValue false
+
+	{
+		name func1gg
+		frequency .000025
+		amplitude 8550
+		contributeValue false
+	
+		[
+			name system1ghhh
+			octaveCount 8
+			octaveStart 0
+			persistence .45
+			scale 7500
+			frequencyMultiplier .25
+			contributeValue true
+			falloffPower 0
+
+			(
+				dependencyType COMPARE_GREATER_EQUAL
+				dependencyFailAction INTERPOLATE
+				dependentValue1 5000
+				dependentValue2 8000
+			)
+		]
+
+		(
+			dependencyType COMPARE_LESS_EQUAL
+			dependencyFailAction INTERPOLATE
+			dependentValue1 0
+			dependentValue2 3000
+		)
+	}
+
+	[
+		name system1aqqe
+		octaveCount 8
+		octaveStart 0
+		persistence .45
+		scale 37500
+		frequencyMultiplier .25
+		contributeValue true
+		falloffPower 3
+
+		(
+			dependencyType COMPARE_GREATER_EQUAL
+			dependencyFailAction INTERPOLATE
+			dependentValue1 10000
+			dependentValue2 6900
+		)
+	]
+
+	[
+		name system1bbv
+		octaveCount 8
+		octaveStart 0
+		persistence .5
+		scale 100
+		frequencyMultiplier .01
+		contributeValue true
+		falloffPower 0
+	]
+}
